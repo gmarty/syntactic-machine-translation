@@ -1,0 +1,16 @@
+{
+  "JJR": "JJ",
+  "JJS": "JJ",
+  "NNPS": "NNP",
+  "NNS": "NN",
+  "RBR": "RB",
+  "RBS": "RB",
+  "VBD": "VB",
+  "VBG": "VB",
+  "VBN": "VB",
+  "VBP": "VB",
+  "VBZ": "VB",
+  "WP$": "WP",
+  "PRP$": "NN",
+  "PRP": "NN"
+}
