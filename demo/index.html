@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+<title>Machine translation from English to Japanese</title>
 </head>
 <body>
+<h1>Machine translation from English to Japanese</h1>
 <input value="I am happy!">
-<button>Translate</button>
+<button disabled>Translate</button>
 <blockquote></blockquote>
 <script src="jspos/lexer.js"></script>
 <script src="jspos/lexicon.js_"></script>
@@ -13,15 +14,31 @@
 <script>
 'use strict';
 
-// Load synchronously for the sake of simplicity.
-function require(url) {
+var jsonToLoad = 0;
+var jsonReceived = 0;
+
+function require(url, key, callback) {
+  jsonToLoad++;
+
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', url, false);
-  //xhr.responseType = 'json';
+  xhr.open('GET', url, true);
+  xhr.responseType = 'json';
   xhr.overrideMimeType && xhr.overrideMimeType('application/json');
   xhr.setRequestHeader('Accept', 'application/json, text/javascript, */*; q=0.01');
+  xhr.addEventListener('load', function(event) {
+    var status = event.target.status;
+    if (status === 200) {
+      window[key] = event.target.response;
+
+      jsonReceived++;
+      if (jsonReceived === jsonToLoad) {
+        callback();
+      }
+    } else {
+      console.error(event.target);
+    }
+  }, false);
   xhr.send();
-  return JSON.parse(xhr.response);
 }
 
 // From utils/en-normalizer.js
@@ -56,14 +73,19 @@ function enNormalize(str) {
 
 var input = document.querySelector('input');
 var output = document.querySelector('blockquote');
-document.querySelector('button').addEventListener('click', function(e) {
+var button = document.querySelector('button');
+button.setAttribute('disabled', 'disabled');
+button.addEventListener('click', function(e) {
   var translation = translate(input.value);
   output.textContent = translation;
 }, false);
+var callback = function() {
+  button.removeAttribute('disabled');
+};
 
-var enConverter = require('./pos-converter/en.json');
-var jaConverter = require('./pos-converter/ja.json');
-var enDico = require('./dictionary/en.json');
+require('./pos-converter/en.json', 'enConverter', callback);
+require('./pos-converter/ja.json', 'jaConverter', callback);
+require('./dictionary/en.json', 'enDico', callback);
 
 function translate(source) {
   var pos = {
