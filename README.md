@@ -1,7 +1,7 @@
-# Hacking a quick and dirty machine translation
+# Hacking a quick and dirty syntactic machine translation
 
 > The goal of this project is to hack a quick and dirty machine translation for English and
-> Japanese.
+> Japanese that uses syntax only.
 
 ## What's interesting about this approach?
 
