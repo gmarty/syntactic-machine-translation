@@ -1,4 +1,54 @@
 {
+  "1": {
+    "CD": {
+      "1": 34,
+      ".1": 1
+    }
+  },
+  "2": {
+    "CD": {
+      "2": 24,
+      "8": 1
+    }
+  },
+  "3": {
+    "CD": {
+      "3": 18,
+      "15": 2
+    }
+  },
+  "4": {
+    "CD": {
+      "4": 15
+    }
+  },
+  "5": {
+    "CD": {
+      "5": 23
+    }
+  },
+  "6": {
+    "CD": {
+      "6": 6
+    }
+  },
+  "7": {
+    "CD": {
+      "7": 4,
+      "30": 1
+    }
+  },
+  "8": {
+    "CD": {
+      "8": 5,
+      "80": 3
+    }
+  },
+  "9": {
+    "CD": {
+      "9": 2
+    }
+  },
   "つくづく": {
     "RB": {
       "often": 1,
@@ -8,8 +58,7 @@
   "思う": {
     "VB": {
       "be": 4,
-      "thought": 3,
-      "seems": 4
+      "thought": 3
     }
   },
   "いい": {
@@ -22,18 +71,34 @@
   },
   "それ": {
     "NN": {
-      "i": 12,
-      "it’s": 1
+      "I": 15
     }
   },
-  "誰か": {
-    "NN": {
-      "someone": 6
+  "山田": {
+    "NNP": {
+      "Yamada": 88
     }
   },
   "しんどい": {
     "JJ": {
       "tough": 1
+    }
+  },
+  "桃山": {
+    "NNP": {
+      "Momoyama": 1
+    }
+  },
+  "昭和": {
+    "NNP": {
+      "Showa": 2
+    }
+  },
+  "常に": {
+    "RB": {
+      "not": 1,
+      "always": 13,
+      "constantly": 1
     }
   },
   "欲しい": {
@@ -44,25 +109,23 @@
   },
   "する": {
     "VB": {
-      "be": 104,
+      "be": 102,
       "felt": 1,
-      "aiming": 1,
-      "did": 4,
-      "making": 3,
-      "got": 9,
+      "does": 8,
+      "did": 6,
+      "got": 10,
       "looking": 7,
       "are": 65,
       "living": 2,
       "take": 8,
       "helped": 1,
-      "heard": 4,
       "studied": 3,
       "asks": 3,
       "saw": 3,
       "made": 14,
       "explained": 3,
-      "see": 4,
-      "is": 100,
+      "See": 1,
+      "is": 173,
       "devastated": 1,
       "remained": 1,
       "exercised": 1,
@@ -70,84 +133,80 @@
       "put": 6,
       "expressed": 6,
       "replied": 1,
-      "selected": 4,
+      "selected": 3,
       "play": 5,
-      "had": 16,
+      "had": 14,
       "introduced": 3,
-      "have": 45,
+      "have": 46,
       "acted": 1,
       "smelled": 1,
-      "taking": 1,
-      "make": 21,
+      "make": 18,
       "performs": 2,
       "am": 2,
       "confirm": 1,
       "goes": 6,
       "attended": 6,
-      "do": 13,
+      "do": 12,
       "helps": 3,
       "talked": 1,
-      "puts": 4,
-      "meet": 3,
+      "puts": 3,
+      "pay": 6,
+      "meet": 2,
       "leave": 2,
       "imitate": 1,
       "introduces": 2,
-      "centered": 1,
-      "chop": 1,
-      "reported": 5,
+      "Chop": 1,
+      "reported": 4,
       "posted": 4,
+      "Use": 1,
       "attracted": 1,
-      "used": 10,
+      "used": 9,
       "blamed": 1,
       "evaluated": 1,
       "invest": 1,
       "singing": 2,
       "give": 7,
       "arranged": 1,
-      "set": 8,
-      "took": 10,
+      "set": 7,
+      "took": 9,
       "sees": 1,
-      "were": 16,
-      "worry": 2,
+      "were": 15,
+      "worry": 1,
       "takes": 6,
       "walks": 1,
       "run": 2,
-      "go": 8,
-      "provide": 14,
+      "go": 7,
+      "provide": 13,
       "quarreled": 1,
       "regards": 1,
-      "turns": 2,
-      "attacked": 1,
       "stowed": 1,
       "breathes": 1,
-      "said": 4,
       "gives": 2,
       "cleans": 1,
       "sent": 3,
       "opens": 1,
+      "don": 1,
       "brought": 1,
-      "consulted": 1,
       "has": 45,
       "controlled": 1,
-      "cover": 2,
-      "serve": 1,
-      "please": 5,
+      "cover": 1,
+      "Serve": 1,
+      "Please": 4,
       "shows": 6,
-      "introduce": 2,
-      "recommended": 2,
+      "recommended": 1,
       "bathing": 1,
-      "tells": 3,
-      "was": 56,
+      "tells": 2,
+      "was": 55,
       "cooking": 1,
       "thing": 1,
       "undergoing": 1,
-      "talk": 5,
+      "talk": 3,
       "tell": 3,
       "provides": 6,
       "disclose": 2,
       "serves": 2,
       "worrying": 1,
-      "follows": 5,
+      "follows": 4,
       "conducted": 4,
       "implement": 3,
       "implemented": 1,
@@ -157,23 +216,22 @@
       "verify": 1,
       "hold": 2,
       "say": 1,
-      "didn": 2,
       "uses": 6,
-      "launch": 1,
       "saved": 1,
       "announced": 3,
       "released": 1,
       "presented": 1,
       "published": 2,
       "wear": 1,
-      "makes": 6,
-      "left": 4,
+      "Make": 1,
+      "makes": 7,
+      "left": 3,
       "creates": 5,
       "prepared": 2,
-      "prepare": 3,
+      "prepare": 2,
       "create": 4,
       "sell": 1,
-      "submit": 4,
+      "submit": 3,
       "recommends": 3,
       "produce": 2,
       "exerts": 2,
@@ -186,6 +244,7 @@
       "promote": 3,
       "update": 1,
       "updated": 1,
+      "Prepare": 1,
       "prepares": 2,
       "gets": 3,
       "obtain": 2,
@@ -193,10 +252,9 @@
       "achieve": 4,
       "achieves": 1,
       "perform": 1,
-      "located": 2,
       "stipulate": 1,
-      "morning": 3,
-      "decided": 3,
+      "morning": 2,
+      "decided": 4,
       "decide": 2,
       "depends": 1,
       "decides": 1,
@@ -204,16 +262,15 @@
       "clarify": 1,
       "unveiled": 1,
       "lost": 1,
-      "refers": 2,
       "revised": 2,
-      "searched": 5,
+      "searched": 4,
       "sells": 3,
       "means": 2,
       "discusses": 2,
       "understand": 4,
       "suggests": 1,
       "pointed": 2,
-      "following": 10,
+      "following": 11,
       "taken": 2,
       "monster-related": 1,
       "contribute": 2,
@@ -228,18 +285,18 @@
       "builds": 1,
       "establishes": 2,
       "generates": 2,
-      "meets": 3,
+      "meets": 2,
       "uploaded": 2,
-      "won": 4,
+      "won": 3,
       "graduated": 1,
       "thank": 1,
-      "specify": 2,
+      "Specify": 2,
       "designates": 1,
       "pleaded": 1,
       "advise": 2,
       "establish": 1,
       "arrived": 3,
-      "experienced": 4,
+      "experienced": 3,
       "cheered": 1,
       "concluded": 1,
       "ensure": 3,
@@ -252,23 +309,24 @@
       "asked": 1,
       "requested": 1,
       "selects": 1,
-      "reached": 4,
       "founded": 1,
       "established": 1,
-      "handle": 1,
+      "Handle": 1,
       "found": 2,
       "discover": 1,
-      "connect": 2,
+      "connect": 3,
       "formulated": 1,
       "consult": 1,
       "collect": 3,
       "deliver": 2,
       "qualified": 1,
+      "reached": 3,
       "knows": 1,
       "understands": 2,
-      "install": 2,
+      "install": 1,
+      "Install": 1,
       "installed": 1,
-      "keep": 1,
+      "keep": 2,
       "enable": 1,
       "downloaded": 1,
       "printing": 1,
@@ -278,10 +336,8 @@
       "receiving": 1,
       "banned": 1,
       "assume": 1,
-      "pay": 4,
       "contributed": 1,
       "combined": 1,
-      "contains": 2,
       "runs": 3,
       "dispatched": 1,
       "learns": 1,
@@ -296,7 +352,6 @@
       "editing": 1,
       "prevent": 2,
       "created": 2,
-      "going": 3,
       "join": 1,
       "weakens": 1,
       "resume": 2,
@@ -305,12 +360,10 @@
       "assign": 1,
       "changed": 1,
       "begins": 1,
-      "deleted": 1,
       "regretted": 1,
       "improve": 2,
       "cease": 1,
       "rose": 1,
-      "ease": 1,
       "imagine": 1,
       "organizes": 1,
       "produces": 1,
@@ -320,17 +373,12 @@
       "reduces": 1,
       "repaired": 1,
       "measured": 1,
-      "impressed": 1,
       "extend": 1,
       "ask": 4,
       "working": 2,
-      "infringed": 1,
       "called": 1,
-      "enacts": 1,
       "suggest": 2,
       "protects": 2,
-      "does": 2,
-      "stimulates": 1,
       "reduce": 2,
       "remove": 1,
       "stated": 1,
@@ -341,38 +389,38 @@
       "went": 7,
       "raises": 1,
       "absorbs": 1,
+      "said": 3,
       "break": 1,
-      "appoints": 2,
-      "attach": 1,
+      "Print": 1,
+      "Attach": 1,
       "assist": 2,
       "manages": 1,
       "focused": 1,
       "agree": 1,
       "teach": 1,
-      "co-operates": 1,
       "compares": 1,
       "compensate": 1,
       "fosters": 1,
       "collaborates": 1,
-      "let": 4,
       "examine": 1,
       "met": 2,
       "get": 5,
       "grows": 1,
       "lasts": 1,
       "greeted": 1,
-      "monitor": 1,
       "reflected": 1,
       "select": 1,
       "radiates": 1,
+      "Set": 1,
       "finds": 1,
       "declared": 1,
       "opened": 2,
-      "comes": 5,
+      "comes": 4,
       "calculate": 1,
       "calls": 2,
       "adjusts": 2,
       "stayed": 1,
+      "appoints": 1,
       "fits": 1,
       "subsidizes": 1,
       "bring": 1,
@@ -389,24 +437,12 @@
   },
   "感じ": {
     "NN": {
-      "it": 4
-    }
-  },
-  "あまり": {
-    "RB": {
-      "really": 3,
-      "very": 11,
-      "almost": 2,
-      "hardly": 1,
-      "rarely": 1,
-      "here": 1,
-      "often": 1,
-      "too": 1
+      "It": 4
     }
   },
   "気": {
     "NN": {
-      "i": 6
+      "I": 8
     }
   },
   "概ね": {
@@ -420,27 +456,14 @@
       "necessary": 7,
       "true": 1,
       "careful": 3,
-      "more": 2,
       "complex": 1,
       "few": 1,
       "certain": 1,
+      "Spanish": 1,
       "cooperative": 1,
-      "further": 1,
       "additional": 2,
       "extra": 1,
       "total": 1
-    }
-  },
-  "１": {
-    "CD": {
-      "1": 34,
-      ".1": 1
-    }
-  },
-  "２": {
-    "CD": {
-      "2": 22,
-      "8": 1
     }
   },
   "忙しい": {
@@ -453,9 +476,9 @@
       "3": 4
     }
   },
-  "X": {
+  "x": {
     "NN": {
-      "x": 536
+      "X": 565
     }
   },
   "並びに": {
@@ -473,8 +496,7 @@
       "few": 1
     },
     "RB": {
-      "most": 2,
-      "quite": 1
+      "Quite": 1
     }
   },
   "ともに": {
@@ -484,7 +506,12 @@
   },
   "プロ": {
     "NN": {
-      "it": 2
+      "It": 2
+    }
+  },
+  "アフリカ": {
+    "NNP": {
+      "Africa": 1
     }
   },
   "凄い": {
@@ -499,7 +526,7 @@
   },
   "吐き気": {
     "NN": {
-      "i": 1
+      "I": 1
     }
   },
   "同様": {
@@ -507,14 +534,24 @@
       "same": 1
     }
   },
-  "４": {
-    "CD": {
-      "4": 14
+  "マネ": {
+    "NNP": {
+      "Computer": 1
+    }
+  },
+  "京都": {
+    "NNP": {
+      "Kyoto": 34
     }
   },
   "ネコ": {
     "NN": {
       "cat": 1
+    }
+  },
+  "ヨーロッパ": {
+    "NNP": {
+      "Merchandise": 1
     }
   },
   "かすか": {
@@ -536,11 +573,21 @@
       "personal": 1
     }
   },
+  "賢い": {
+    "JJ": {
+      "dumb": 1
+    }
+  },
+  "戦争": {
+    "NN": {
+      "fights": 1
+    }
+  },
   "有る": {
     "VB": {
-      "are": 20,
+      "are": 21,
+      "is": 15,
       "happen": 1,
-      "is": 13,
       "has": 6,
       "feel": 1,
       "have": 3,
@@ -565,8 +612,7 @@
   },
   "まったく": {
     "RB": {
-      "not": 2,
-      "totally": 1,
+      "not": 9,
       "completely": 2,
       "absolutely": 2,
       "utterly": 1
@@ -578,24 +624,22 @@
       "particularly": 1
     }
   },
-  "安全": {
-    "JJ": {
-      "safe": 3,
-      "local": 1,
-      "highest": 1,
-      "own": 1,
-      "built-in": 1
+  "全然": {
+    "RB": {
+      "not": 6,
+      "completely": 1,
+      "totally": 3
     }
   },
   "いつも": {
     "RB": {
-      "always": 24
+      "always": 22
     }
   },
   "まだ": {
     "RB": {
       "still": 20,
-      "yet": 13
+      "not": 14
     }
   },
   "大変": {
@@ -610,19 +654,9 @@
       "deeply": 1
     }
   },
-  "なかなか": {
-    "RB": {
-      "very": 3,
-      "fairly": 1,
-      "lately": 1,
-      "rarely": 4,
-      "friendly": 1,
-      "never": 1,
-      "relatively": 1,
-      "not": 2,
-      "pretty": 3,
-      "still": 1,
-      "so": 1
+  "機会": {
+    "NN": {
+      "chances": 2
     }
   },
   "もちろん": {
@@ -634,6 +668,11 @@
   "そして": {
     "CC": {
       "and": 1
+    }
+  },
+  "京": {
+    "NNP": {
+      "Kyoto": 2
     }
   },
   "かなり": {
@@ -655,10 +694,14 @@
       "impossible": 1
     }
   },
+  "多多": {
+    "RB": {
+      "not": 1
+    }
+  },
   "ほとんど": {
     "RB": {
-      "nearly": 1,
-      "most": 10,
+      "Nearly": 1,
       "very": 2,
       "rarely": 1,
       "almost": 3,
@@ -674,12 +717,6 @@
       "acutely": 1
     }
   },
-  "８": {
-    "CD": {
-      "8": 5,
-      "80": 3
-    }
-  },
   "言う": {
     "VB": {
       "happened": 1,
@@ -687,8 +724,7 @@
       "said": 9,
       "says": 2,
       "tells": 1,
-      "complains": 1,
-      "say": 3
+      "complains": 1
     }
   },
   "今更": {
@@ -699,7 +735,6 @@
   "やはり": {
     "RB": {
       "really": 2,
-      "enough": 1,
       "still": 2
     }
   },
@@ -758,8 +793,9 @@
   },
   "て": {
     "CC": {
-      "and": 36,
-      "or": 2
+      "and": 35,
+      "or": 2,
+      "And": 1
     }
   },
   "危険": {
@@ -794,24 +830,24 @@
   },
   "彼ら": {
     "NN": {
-      "they": 25
-    }
-  },
-  "考える": {
-    "VB": {
-      "thinks": 7,
-      "think": 7
+      "They": 24
     }
   },
   "重要": {
     "JJ": {
-      "important": 8,
+      "important": 7,
       "particular": 1
     }
   },
   "真剣": {
     "JJ": {
       "nearby": 1
+    }
+  },
+  "考える": {
+    "VB": {
+      "thinks": 7,
+      "think": 7
     }
   },
   "にくい": {
@@ -825,18 +861,17 @@
       "saw": 9,
       "stare": 2,
       "see": 6,
-      "read": 3,
       "looks": 11,
-      "anything": 1,
       "watched": 6,
+      "is": 14,
       "reads": 2,
-      "live": 1,
       "observes": 2,
       "watch": 5,
       "takes": 1,
       "materialized": 1,
       "sees": 2,
-      "looked": 5
+      "looked": 4,
+      "read": 2
     }
   },
   "詳しい": {
@@ -871,7 +906,7 @@
       "just": 1
     }
   },
-  "色々": {
+  "色色": {
     "JJ": {
       "various": 1
     }
@@ -906,7 +941,7 @@
   },
   "気分": {
     "NN": {
-      "i": 2
+      "I": 3
     }
   },
   "感度": {
@@ -916,7 +951,8 @@
   },
   "効率": {
     "NN": {
-      "efficiency": 5
+      "efficiency": 5,
+      "It": 1
     }
   },
   "本当に": {
@@ -939,12 +975,13 @@
   "ちょうど": {
     "RB": {
       "just": 1,
+      "Right": 1,
       "now": 1
     }
   },
   "居心地": {
     "NN": {
-      "it": 1
+      "It": 1
     }
   },
   "締まる": {
@@ -952,17 +989,23 @@
       "is": 1
     }
   },
-  "買う": {
-    "VB": {
-      "buying": 2,
-      "bought": 11,
-      "buy": 4,
-      "raised": 1
+  "なかなか": {
+    "RB": {
+      "fairly": 1,
+      "rarely": 4,
+      "not": 8,
+      "very": 1,
+      "friendly": 1,
+      "Very": 1,
+      "never": 1,
+      "relatively": 1,
+      "pretty": 3,
+      "so": 1
     }
   },
   "運": {
     "NN": {
-      "it": 1
+      "It": 1
     }
   },
   "眺め": {
@@ -973,18 +1016,18 @@
   "多い": {
     "JJ": {
       "many": 13,
-      "more": 6,
+      "more": 5,
+      "female": 1,
       "thick": 1,
       "open": 1,
       "large": 1,
       "high": 1,
-      "practical": 1,
       "wider": 1
     }
   },
   "意見": {
     "NN": {
-      "opinions": 8
+      "opinions": 7
     }
   },
   "あまりに": {
@@ -1012,10 +1055,24 @@
       "is": 1
     }
   },
+  "すぐ": {
+    "RB": {
+      "immediately": 27,
+      "soon": 10,
+      "quickly": 16,
+      "always": 3,
+      "easily": 4,
+      "Right": 2,
+      "once": 2,
+      "away": 2,
+      "back": 1,
+      "not": 1,
+      "often": 2
+    }
+  },
   "とにかく": {
     "RB": {
-      "anyway": 2,
-      "well": 1,
+      "Anyway": 2,
       "so": 1,
       "down": 1,
       "hastily": 1
@@ -1025,11 +1082,11 @@
     "VB": {
       "was": 2,
       "has": 29,
-      "have": 16,
+      "have": 17,
       "am": 1,
-      "had": 8,
+      "had": 7,
       "is": 5,
-      "serve": 1
+      "Serve": 1
     }
   },
   "たいてい": {
@@ -1038,9 +1095,14 @@
       "most": 1
     }
   },
-  "６": {
-    "CD": {
-      "6": 6
+  "それほど": {
+    "RB": {
+      "not": 2
+    }
+  },
+  "日本": {
+    "NNP": {
+      "Japan": 30
     }
   },
   "楽しい": {
@@ -1050,20 +1112,24 @@
       "more": 2
     }
   },
+  "東京": {
+    "NNP": {
+      "Tokyo": 18
+    }
+  },
   "出来る": {
     "VB": {
       "be": 4,
+      "is": 6,
       "thank": 1,
       "anything": 1,
-      "do": 3,
       "made": 1,
-      "have": 5,
+      "have": 7,
       "speak": 1,
+      "do": 2,
       "are": 2,
       "make": 1,
       "calculate": 1,
-      "treat": 1,
-      "take": 1,
       "perform": 1,
       "opened": 1,
       "lead": 1,
@@ -1075,27 +1141,6 @@
       "fuzzy": 1
     }
   },
-  "簡単": {
-    "JJ": {
-      "easy": 3,
-      "prone": 1,
-      "interior": 1,
-      "free": 1
-    }
-  },
-  "すぐ": {
-    "RB": {
-      "soon": 10,
-      "immediately": 27,
-      "quickly": 16,
-      "always": 3,
-      "easily": 4,
-      "once": 2,
-      "away": 2,
-      "back": 1,
-      "often": 2
-    }
-  },
   "自由": {
     "JJ": {
       "real": 1
@@ -1103,15 +1148,9 @@
   },
   "すでに": {
     "RB": {
-      "approximately": 1,
+      "Approximately": 1,
       "already": 23,
       "almost": 1
-    }
-  },
-  "７": {
-    "CD": {
-      "7": 4,
-      "30": 1
     }
   },
   "快適": {
@@ -1119,41 +1158,23 @@
       "pleasant": 1
     }
   },
-  "全然": {
-    "RB": {
-      "well": 1,
-      "completely": 1,
-      "totally": 3
-    }
-  },
   "ゆっくり": {
     "RB": {
       "leisurely": 3,
-      "then": 1,
+      "Then": 1,
       "slowly": 31,
       "relaxedly": 1
     }
   },
   "やっと": {
     "RB": {
-      "finally": 19
+      "finally": 18,
+      "Finally": 1
     }
   },
   "普通": {
     "JJ": {
       "ordinary": 1
-    }
-  },
-  "全く": {
-    "RB": {
-      "just": 1,
-      "not": 4,
-      "very": 1,
-      "totally": 2,
-      "else": 1,
-      "absolutely": 1,
-      "even": 1,
-      "far": 1
     }
   },
   "つく": {
@@ -1166,16 +1187,6 @@
       "have": 1
     }
   },
-  "もう": {
-    "RB": {
-      "anymore": 2,
-      "already": 9,
-      "yet": 1,
-      "now": 1,
-      "never": 2,
-      "just": 2
-    }
-  },
   "ついていける": {
     "VB": {
       "keep": 1
@@ -1183,7 +1194,7 @@
   },
   "彼": {
     "NN": {
-      "he": 1312
+      "He": 1240
     }
   },
   "出る": {
@@ -1195,15 +1206,15 @@
       "left": 1,
       "goes": 1,
       "express": 1,
-      "summon": 1,
       "come": 4,
       "tearing": 1,
-      "is": 4,
+      "is": 5,
       "jumped": 1,
       "afford": 1,
       "appear": 3,
       "motivated": 1,
       "getting": 1,
+      "does": 1,
       "answered": 1,
       "grows": 1
     }
@@ -1211,28 +1222,36 @@
   "必ず": {
     "RB": {
       "always": 8,
-      "prior": 1,
+      "Prior": 1,
       "definitely": 3,
       "never": 1,
       "certainly": 4,
       "surely": 2,
-      "just": 1
+      "just": 1,
+      "not": 1
     }
   },
   "少ない": {
     "JJ": {
       "good": 1,
       "small": 5,
-      "many": 3,
-      "little": 1
+      "many": 3
     }
   },
   "どんどん": {
     "RB": {
       "just": 2,
+      "More": 4,
       "ahead": 1,
       "continually": 1,
       "continuously": 1
+    }
+  },
+  "思わず": {
+    "RB": {
+      "not": 2,
+      "away": 1,
+      "so": 1
     }
   },
   "美しい": {
@@ -1243,7 +1262,7 @@
   },
   "汗": {
     "NN": {
-      "sweat": 3
+      "Sweat": 1
     }
   },
   "元気": {
@@ -1258,12 +1277,8 @@
   },
   "たまに": {
     "RB": {
-      "sometimes": 3
-    }
-  },
-  "５": {
-    "CD": {
-      "5": 21
+      "Sometimes": 1,
+      "sometimes": 2
     }
   },
   "あっという間に": {
@@ -1281,7 +1296,7 @@
     "RB": {
       "fully": 4,
       "firmly": 5,
-      "completely": 1,
+      "Completely": 1,
       "strictly": 2,
       "still": 1,
       "carefully": 2,
@@ -1339,16 +1354,21 @@
       "receives": 1,
       "ask": 1,
       "suffered": 1,
+      "confirmed": 1,
       "received": 8,
       "have": 2,
       "benefited": 1,
-      "receive": 4,
-      "pay": 1
+      "receive": 4
     }
   },
   "あらかじめ": {
     "RB": {
       "beforehand": 2
+    }
+  },
+  "地中海": {
+    "NNP": {
+      "Mediterranean": 1
     }
   },
   "初めて": {
@@ -1382,16 +1402,22 @@
       "few": 2
     }
   },
-  "にる": {
-    "VB": {
-      "carry": 1,
-      "is": 17,
-      "has": 6
+  "全く": {
+    "RB": {
+      "not": 23,
+      "totally": 2,
+      "absolutely": 1,
+      "far": 1
     }
   },
-  "あんまり": {
+  "あまり": {
     "RB": {
-      "very": 1
+      "not": 23,
+      "almost": 2,
+      "hardly": 1,
+      "very": 1,
+      "rarely": 1,
+      "too": 1
     }
   },
   "問題": {
@@ -1399,9 +1425,31 @@
       "problem": 8
     }
   },
+  "もう": {
+    "RB": {
+      "not": 6,
+      "already": 9,
+      "yet": 1,
+      "Now": 1,
+      "never": 2,
+      "just": 1
+    }
+  },
+  "にる": {
+    "VB": {
+      "is": 27,
+      "has": 7
+    }
+  },
   "きり": {
     "NN": {
       "end": 1
+    }
+  },
+  "育む": {
+    "VB": {
+      "is": 1,
+      "makes": 1
     }
   },
   "キリ": {
@@ -1414,9 +1462,20 @@
       "sign": 1
     }
   },
+  "身": {
+    "NN": {
+      "I": 2
+    }
+  },
+  "そもそも": {
+    "RB": {
+      "not": 1
+    }
+  },
   "なんとなく": {
     "RB": {
-      "somehow": 3
+      "Somehow": 2,
+      "somehow": 1
     }
   },
   "不安": {
@@ -1449,7 +1508,7 @@
   },
   "感じる": {
     "VB": {
-      "is": 8,
+      "is": 10,
       "feel": 8,
       "felt": 5
     }
@@ -1475,11 +1534,6 @@
       "same": 1
     }
   },
-  "私": {
-    "NN": {
-      "i": 228
-    }
-  },
   "涼しい": {
     "JJ": {
       "cool": 1
@@ -1498,15 +1552,14 @@
   "聞く": {
     "VB": {
       "listened": 5,
-      "heard": 6,
-      "listen": 5,
+      "heard": 7,
       "asked": 4,
       "hear": 1
     }
   },
   "生": {
     "JJ": {
-      "many": 1
+      "Many": 1
     }
   },
   "じっと": {
@@ -1514,11 +1567,6 @@
       "attentively": 1,
       "patiently": 2,
       "just": 1
-    }
-  },
-  "だいたい": {
-    "RB": {
-      "really": 1
     }
   },
   "絶対に": {
@@ -1534,7 +1582,7 @@
   },
   "注意": {
     "NN": {
-      "you": 2
+      "You": 1
     }
   },
   "努力": {
@@ -1560,7 +1608,18 @@
   },
   "配慮": {
     "NN": {
-      "considerations": 2
+      "Considerations": 1
+    }
+  },
+  "さらに": {
+    "RB": {
+      "Further": 2,
+      "again": 1,
+      "ever": 1,
+      "widely": 1,
+      "Moreover": 1,
+      "furthermore": 1,
+      "Then": 1
     }
   },
   "仕組み": {
@@ -1570,13 +1629,12 @@
   },
   "使う": {
     "VB": {
-      "please": 2,
+      "please": 1,
       "uses": 11,
       "used": 12,
-      "let": 1,
       "took": 1,
       "requires": 1,
-      "is": 3
+      "is": 4
     }
   },
   "好き": {
@@ -1597,7 +1655,7 @@
       "hear": 2,
       "got": 1,
       "entered": 1,
-      "is": 6,
+      "is": 7,
       "reached": 1,
       "placed": 2,
       "turns": 1
@@ -1608,23 +1666,35 @@
       "directly": 4,
       "just": 6,
       "back": 1,
-      "then": 2
+      "Then": 1,
+      "then": 1
+    }
+  },
+  "タイ": {
+    "NNP": {
+      "Thai": 1
     }
   },
   "いよいよ": {
     "RB": {
-      "finally": 18,
+      "finally": 15,
+      "Finally": 3,
       "just": 1
     }
   },
   "力": {
     "NN": {
-      "i": 2
+      "I": 2
     }
   },
   "気合": {
     "NN": {
-      "i": 1
+      "I": 2
+    }
+  },
+  "作業": {
+    "NN": {
+      "work": 10
     }
   },
   "強い": {
@@ -1638,8 +1708,9 @@
   },
   "人": {
     "NN": {
-      "people": 167,
-      "someone": 11
+      "people": 156,
+      "Someone": 3,
+      "People": 19
     }
   },
   "完全": {
@@ -1674,11 +1745,12 @@
   },
   "入れる": {
     "VB": {
-      "is": 1,
-      "put": 15,
+      "is": 2,
+      "put": 11,
       "got": 2,
       "turns": 1,
       "turned": 1,
+      "Put": 4,
       "installed": 1,
       "give": 1,
       "take": 1
@@ -1689,12 +1761,6 @@
       "cold": 2
     }
   },
-  "３": {
-    "CD": {
-      "3": 18,
-      "15": 2
-    }
-  },
   "たっぷり": {
     "RB": {
       "enough": 1
@@ -1702,11 +1768,16 @@
   },
   "分かる": {
     "VB": {
-      "is": 5,
+      "is": 7,
       "know": 6,
       "understood": 2,
       "tell": 1,
       "appreciate": 1
+    }
+  },
+  "さっぱり": {
+    "RB": {
+      "not": 2
     }
   },
   "心から": {
@@ -1733,11 +1804,6 @@
       "special": 3
     }
   },
-  "願う": {
-    "VB": {
-      "wish": 1
-    }
-  },
   "なるべく": {
     "RB": {
       "early": 1
@@ -1758,11 +1824,11 @@
   "いる": {
     "VB": {
       "are": 52,
-      "was": 33,
+      "was": 32,
       "have": 27,
       "has": 32,
       "stayed": 1,
-      "is": 51,
+      "is": 67,
       "were": 8
     }
   },
@@ -1798,13 +1864,8 @@
   "より": {
     "RB": {
       "soon": 1,
+      "More": 2,
       "longer": 1
-    }
-  },
-  "常に": {
-    "RB": {
-      "always": 13,
-      "constantly": 1
     }
   },
   "幅広い": {
@@ -1828,16 +1889,23 @@
   },
   "書く": {
     "VB": {
-      "write": 8,
+      "write": 7,
       "writes": 5,
       "wrote": 5,
+      "Write": 1,
       "e-mailed": 1,
       "writing": 2
     }
   },
   "何": {
     "NN": {
-      "i": 10
+      "I": 11
+    }
+  },
+  "長い": {
+    "JJ": {
+      "great": 1,
+      "long": 1
     }
   },
   "ちょろい": {
@@ -1856,7 +1924,7 @@
       "produces": 2,
       "named": 1,
       "took": 1,
-      "thicken": 1,
+      "Thicken": 1,
       "turns": 1,
       "fixed": 1
     }
@@ -1875,14 +1943,15 @@
       "have": 2
     }
   },
-  "時々": {
+  "時時": {
     "RB": {
-      "sometimes": 3
+      "sometimes": 2,
+      "Sometimes": 1
     }
   },
   "かかる": {
     "VB": {
-      "is": 4,
+      "is": 5,
       "suffer": 1,
       "spoke": 1
     }
@@ -1897,7 +1966,7 @@
       "reasonable": 1
     }
   },
-  "着々と": {
+  "着着と": {
     "RB": {
       "steadily": 2,
       "well": 1
@@ -1911,14 +1980,21 @@
       "understanding": 1
     }
   },
+  "安全": {
+    "JJ": {
+      "local": 1,
+      "safe": 3,
+      "highest": 1,
+      "own": 1,
+      "built-in": 1
+    }
+  },
   "かける": {
     "VB": {
       "puts": 2,
       "shows": 1,
       "caused": 1,
       "dialed": 1,
-      "hurt": 1,
-      "placed": 1,
       "put": 2,
       "sprinkles": 1,
       "tap": 1
@@ -1945,7 +2021,8 @@
   "ほぼ": {
     "RB": {
       "basically": 1,
-      "almost": 4,
+      "Almost": 1,
+      "almost": 3,
       "roughly": 1,
       "mostly": 1
     }
@@ -1976,7 +2053,7 @@
   },
   "勇気": {
     "NN": {
-      "courage": 4
+      "courage": 3
     }
   },
   "急": {
@@ -1989,8 +2066,8 @@
   "知る": {
     "VB": {
       "knew": 3,
-      "know": 8,
       "found": 1,
+      "know": 8,
       "heard": 1
     }
   },
@@ -2042,6 +2119,11 @@
       "goes": 2
     }
   },
+  "羽田空港": {
+    "NNP": {
+      "Airport": 1
+    }
+  },
   "与える": {
     "VB": {
       "have": 2,
@@ -2055,9 +2137,10 @@
   },
   "戻る": {
     "VB": {
-      "go": 6,
+      "go": 3,
       "returned": 2,
       "comes": 1,
+      "Go": 3,
       "goes": 2,
       "went": 4,
       "became": 1
@@ -2067,17 +2150,21 @@
     "VB": {
       "watch": 1,
       "morning": 1,
-      "play": 2,
-      "did": 2,
+      "did": 3,
       "does": 2,
       "do": 5,
-      "is": 1
+      "is": 2
     }
   },
   "御座る": {
     "VB": {
       "is": 5,
       "are": 1
+    }
+  },
+  "薬": {
+    "NN": {
+      "medicine": 5
     }
   },
   "飲む": {
@@ -2092,11 +2179,14 @@
       "forward": 1
     }
   },
+  "役に立つ": {
+    "VB": {
+      "is": 1
+    }
+  },
   "立つ": {
     "VB": {
       "got": 4,
-      "look": 1,
-      "put": 1,
       "stood": 2,
       "stand": 1,
       "spearhead": 1
@@ -2104,7 +2194,7 @@
   },
   "ハラ": {
     "NN": {
-      "i": 1
+      "I": 1
     }
   },
   "探す": {
@@ -2113,6 +2203,7 @@
       "look": 2,
       "shopping": 1,
       "looked": 2,
+      "is": 2,
       "searched": 1
     }
   },
@@ -2123,7 +2214,6 @@
   },
   "集める": {
     "VB": {
-      "caught": 1,
       "became": 1,
       "attracted": 2,
       "made": 2,
@@ -2142,11 +2232,6 @@
       "unique": 1
     }
   },
-  "９": {
-    "CD": {
-      "9": 2
-    }
-  },
   "乗る": {
     "VB": {
       "took": 1,
@@ -2155,12 +2240,20 @@
       "take": 2,
       "is": 2,
       "rode": 1,
-      "keep": 1
+      "Keep": 1
+    }
+  },
+  "買う": {
+    "VB": {
+      "bought": 11,
+      "buy": 4,
+      "raised": 1
     }
   },
   "ついに": {
     "RB": {
-      "finally": 20,
+      "Finally": 4,
+      "finally": 16,
       "eventually": 4
     }
   },
@@ -2174,15 +2267,23 @@
       "got": 2
     }
   },
-  "日": {
+  "地震": {
     "NN": {
-      "day": 25,
-      "notification": 1
+      "earthquake": 3
     }
   },
-  "時間": {
+  "日": {
     "NN": {
-      "time": 43
+      "day": 21
+    },
+    "NNP": {
+      "Sundays": 1,
+      "Trees": 1
+    }
+  },
+  "しっくり": {
+    "RB": {
+      "not": 1
     }
   },
   "時代": {
@@ -2202,8 +2303,9 @@
   },
   "むしろ": {
     "RB": {
-      "rather": 4,
-      "instead": 1
+      "Rather": 3,
+      "rather": 1,
+      "Instead": 1
     }
   },
   "更に": {
@@ -2224,18 +2326,23 @@
   "きっと": {
     "RB": {
       "very": 1,
-      "definitely": 1,
       "most": 1
     }
   },
   "そう": {
     "RB": {
-      "so": 3
+      "so": 3,
+      "not": 2
     }
   },
   "厳しい": {
     "JJ": {
       "stern": 1
+    }
+  },
+  "先": {
+    "NN": {
+      "I": 2
     }
   },
   "話す": {
@@ -2260,7 +2367,7 @@
   "わずか": {
     "RB": {
       "slightly": 2,
-      "only": 1
+      "Only": 1
     }
   },
   "既に": {
@@ -2311,8 +2418,7 @@
   },
   "なる": {
     "VB": {
-      "bother": 2,
-      "is": 10,
+      "is": 15,
       "gets": 3,
       "was": 5,
       "become": 2,
@@ -2350,14 +2456,14 @@
       "battle": 1
     }
   },
-  "戦争": {
-    "NN": {
-      "war": 2
-    }
-  },
   "パーティー": {
     "NN": {
       "party": 1
+    }
+  },
+  "大阪": {
+    "NNP": {
+      "Osaka": 1
     }
   },
   "帰る": {
@@ -2370,14 +2476,12 @@
   },
   "よる": {
     "VB": {
-      "follows": 1,
-      "based": 1
+      "follows": 1
     }
   },
   "高める": {
     "VB": {
       "improve": 4,
-      "raises": 1,
       "enhances": 1,
       "improves": 1,
       "managed": 1
@@ -2406,10 +2510,15 @@
       "greatly": 1
     }
   },
+  "年年": {
+    "RB": {
+      "More": 1
+    }
+  },
   "果たす": {
     "VB": {
       "fulfill": 1,
-      "didn": 1,
+      "did": 1,
       "won": 1
     }
   },
@@ -2421,18 +2530,8 @@
   "切る": {
     "VB": {
       "got": 1,
-      "cut": 5,
+      "Cut": 4,
       "are": 1
-    }
-  },
-  "さらに": {
-    "RB": {
-      "again": 1,
-      "ever": 1,
-      "widely": 1,
-      "moreover": 1,
-      "furthermore": 1,
-      "then": 1
     }
   },
   "水気": {
@@ -2454,7 +2553,7 @@
   },
   "感覚": {
     "NN": {
-      "i": 2
+      "I": 2
     }
   },
   "覚える": {
@@ -2478,6 +2577,11 @@
     "RB": {
       "really": 1,
       "definitely": 2
+    }
+  },
+  "ハリウッド": {
+    "NNP": {
+      "Hollywood": 1
     }
   },
   "過ごす": {
@@ -2506,15 +2610,32 @@
   "どうも": {
     "RB": {
       "recently": 1,
-      "just": 1,
-      "somehow": 3
+      "somehow": 1,
+      "Somehow": 2
+    }
+  },
+  "山陽": {
+    "NNP": {
+      "Sanyo": 1
+    }
+  },
+  "行動": {
+    "NN": {
+      "measures": 1
     }
   },
   "起こす": {
     "VB": {
       "became": 1,
-      "is": 1,
+      "is": 2,
       "brought": 1
+    }
+  },
+  "簡単": {
+    "JJ": {
+      "prone": 1,
+      "interior": 1,
+      "free": 1
     }
   },
   "致す": {
@@ -2546,7 +2667,7 @@
   },
   "想像": {
     "NN": {
-      "it": 2
+      "It": 1
     }
   },
   "開く": {
@@ -2587,7 +2708,7 @@
       "asks": 3,
       "seeks": 2,
       "cancel": 1,
-      "evaluate": 1
+      "Evaluate": 1
     }
   },
   "豊か": {
@@ -2643,15 +2764,13 @@
       "observes": 2,
       "protects": 3,
       "keep": 2,
-      "save": 1,
       "protected": 1,
       "protect": 4
     }
   },
   "健康": {
     "JJ": {
-      "healthy": 2,
-      "national": 1
+      "healthy": 2
     }
   },
   "始める": {
@@ -2667,8 +2786,7 @@
   },
   "過ぎる": {
     "VB": {
-      "is": 2,
-      "gone": 1
+      "is": 3
     }
   },
   "探る": {
@@ -2679,10 +2797,10 @@
   },
   "終わる": {
     "VB": {
-      "finished": 1,
       "come": 1,
       "ended": 2,
-      "spent": 1
+      "spent": 1,
+      "is": 4
     }
   },
   "何とか": {
@@ -2695,6 +2813,7 @@
     "VB": {
       "talked": 1,
       "gave": 1,
+      "tell": 1,
       "talk": 1
     }
   },
@@ -2757,6 +2876,7 @@
   "選ぶ": {
     "VB": {
       "choose": 4,
+      "is": 3,
       "chooses": 2
     }
   },
@@ -2791,7 +2911,7 @@
   },
   "どうやら": {
     "RB": {
-      "apparently": 1
+      "Apparently": 1
     }
   },
   "付く": {
@@ -2807,7 +2927,7 @@
     "JJ": {
       "economic": 1,
       "natural": 3,
-      "many": 1
+      "Many": 1
     }
   },
   "しばしば": {
@@ -2820,6 +2940,11 @@
     "VB": {
       "opens": 1,
       "opened": 6
+    }
+  },
+  "パンドラ": {
+    "NNP": {
+      "Pandora": 1
     }
   },
   "負う": {
@@ -2974,11 +3099,6 @@
       "inevitably": 1
     }
   },
-  "着る": {
-    "VB": {
-      "wears": 2
-    }
-  },
   "深める": {
     "VB": {
       "deepen": 1,
@@ -3027,9 +3147,14 @@
   "加える": {
     "VB": {
       "made": 1,
-      "didn": 1,
-      "explains": 1,
-      "pour": 1
+      "did": 2,
+      "does": 1,
+      "explains": 1
+    }
+  },
+  "別に": {
+    "RB": {
+      "not": 1
     }
   },
   "いち早い": {
@@ -3072,7 +3197,7 @@
   },
   "ひいては": {
     "RB": {
-      "eventually": 1
+      "Eventually": 1
     }
   },
   "繋がる": {
@@ -3091,21 +3216,21 @@
     "RB": {
       "gradually": 1,
       "slowly": 1,
-      "just": 2
+      "just": 1,
+      "Just": 1
     }
   },
-  "四": {
-    "CD": {
-      "4": 4
+  "欧州": {
+    "NNP": {
+      "Europe": 1
     }
   },
   "上がる": {
     "VB": {
-      "went": 1,
       "appeared": 1
     }
   },
-  "徐々に": {
+  "徐徐に": {
     "RB": {
       "gradually": 7,
       "down": 1
@@ -3125,11 +3250,6 @@
       "bend": 1,
       "drew": 1,
       "portrayed": 1
-    }
-  },
-  "ハッピー": {
-    "JJ": {
-      "happy": 1
     }
   },
   "流れる": {
@@ -3174,7 +3294,7 @@
   },
   "会う": {
     "VB": {
-      "see": 3,
+      "see": 2,
       "was": 1,
       "met": 2
     }
@@ -3186,7 +3306,8 @@
   },
   "夜": {
     "NN": {
-      "you": 1
+      "you": 1,
+      "breaks": 1
     }
   },
   "伸ばす": {
@@ -3214,7 +3335,7 @@
   },
   "風": {
     "NN": {
-      "it": 2,
+      "It": 1,
       "wind": 7
     }
   },
@@ -3226,15 +3347,20 @@
   "誇る": {
     "VB": {
       "are": 2,
+      "is": 2,
       "have": 1,
       "has": 1,
-      "was": 1,
-      "is": 1
+      "was": 1
     }
   },
   "根強い": {
     "JJ": {
       "popular": 1
+    }
+  },
+  "北朝鮮": {
+    "NNP": {
+      "North": 3
     }
   },
   "渡る": {
@@ -3243,24 +3369,29 @@
       "cross": 2
     }
   },
-  "精一杯": {
-    "RB": {
-      "so": 1
+  "アメリカ": {
+    "NNP": {
+      "America": 1,
+      "States": 1,
+      "American": 3
     }
   },
   "引く": {
     "VB": {
-      "is": 2,
+      "is": 3,
       "draw": 2,
       "catch": 1,
-      "took": 1,
-      "gets": 1
+      "took": 1
+    }
+  },
+  "平成": {
+    "NNP": {
+      "May": 1
     }
   },
   "至る": {
     "VB": {
-      "is": 1,
-      "concluded": 1
+      "is": 2
     }
   },
   "整える": {
@@ -3272,6 +3403,11 @@
   "廉価": {
     "JJ": {
       "low-price": 1
+    }
+  },
+  "バンコク": {
+    "NNP": {
+      "Bangkok": 2
     }
   },
   "すすめる": {
@@ -3330,8 +3466,9 @@
   },
   "防ぐ": {
     "VB": {
-      "prevent": 2,
-      "prevents": 2
+      "Prevent": 1,
+      "prevents": 2,
+      "prevent": 1
     }
   },
   "立派": {
@@ -3353,11 +3490,6 @@
       "left": 2
     }
   },
-  "重ねる": {
-    "VB": {
-      "put": 1
-    }
-  },
   "纏める": {
     "VB": {
       "gathered": 1,
@@ -3372,7 +3504,7 @@
   },
   "定員": {
     "NN": {
-      "quorum": 1
+      "Quorum": 1
     }
   },
   "応える": {
@@ -3388,6 +3520,11 @@
       "examines": 1,
       "used": 2,
       "performs": 1
+    }
+  },
+  "スカンジナビア": {
+    "NNP": {
+      "Scandinavian": 1
     }
   },
   "聴く": {
@@ -3408,9 +3545,9 @@
       "contain": 1
     }
   },
-  "降る": {
+  "優れる": {
     "VB": {
-      "gotten": 1
+      "is": 2
     }
   },
   "明らか": {
@@ -3458,6 +3595,16 @@
     "JJ": {
       "safe": 2,
       "six-month": 1
+    }
+  },
+  "成田": {
+    "NNP": {
+      "Narita": 1
+    }
+  },
+  "四": {
+    "CD": {
+      "4": 4
     }
   },
   "抱える": {
@@ -3573,7 +3720,8 @@
     "VB": {
       "saw": 1,
       "fell": 1,
-      "slowed": 1
+      "slowed": 1,
+      "does": 1
     }
   },
   "あげる": {
@@ -3585,7 +3733,8 @@
   "満たす": {
     "VB": {
       "fulfills": 1,
-      "meets": 1
+      "meets": 1,
+      "filled": 1
     }
   },
   "便利": {
@@ -3614,10 +3763,7 @@
   "育てる": {
     "VB": {
       "raised": 1,
-      "depends": 1,
-      "grow": 1,
-      "develop": 1,
-      "deepen": 1
+      "grow": 1
     }
   },
   "動かす": {
@@ -3638,8 +3784,7 @@
   },
   "決まる": {
     "VB": {
-      "got": 1,
-      "depends": 1
+      "got": 1
     }
   },
   "話": {
@@ -3688,9 +3833,13 @@
   },
   "合う": {
     "VB": {
-      "bring": 1,
       "disagrees": 1,
-      "don": 1
+      "do": 1
+    }
+  },
+  "静か": {
+    "JJ": {
+      "Buddhist": 1
     }
   },
   "合わせる": {
@@ -3713,8 +3862,9 @@
   },
   "突然": {
     "RB": {
-      "suddenly": 3,
-      "unexpectedly": 1
+      "Suddenly": 1,
+      "unexpectedly": 1,
+      "suddenly": 2
     }
   },
   "やってくる": {
@@ -3723,10 +3873,14 @@
       "is": 1
     }
   },
+  "時間": {
+    "NN": {
+      "time": 41
+    }
+  },
   "成る": {
     "VB": {
-      "is": 1,
-      "located": 1
+      "is": 2
     }
   },
   "経る": {
@@ -3737,8 +3891,6 @@
   },
   "掲げる": {
     "VB": {
-      "established": 1,
-      "listed": 1,
       "set": 1,
       "runs": 1
     }
@@ -3746,12 +3898,14 @@
   "回る": {
     "VB": {
       "revolves": 1,
+      "is": 2,
       "visited": 1
     }
   },
   "やさしい": {
     "JJ": {
       "more": 1,
+      "nicer": 1,
       "good": 1,
       "gentle": 1
     }
@@ -3818,6 +3972,11 @@
       "overcomes": 1
     }
   },
+  "宮城": {
+    "NNP": {
+      "Miyagi": 2
+    }
+  },
   "最適": {
     "JJ": {
       "best": 1,
@@ -3827,6 +3986,11 @@
   "機能": {
     "NN": {
       "feature": 1
+    }
+  },
+  "山田温泉": {
+    "NNP": {
+      "Yamada": 1
     }
   },
   "打つ": {
@@ -3857,6 +4021,11 @@
       "shows": 1
     }
   },
+  "アジア": {
+    "NNP": {
+      "Asia": 1
+    }
+  },
   "飛ぶ": {
     "VB": {
       "flies": 1
@@ -3864,13 +4033,8 @@
   },
   "なんと": {
     "RB": {
-      "astoundingly": 1,
+      "Astoundingly": 1,
       "unexpectedly": 1
-    }
-  },
-  "はなつ": {
-    "VB": {
-      "casts": 1
     }
   },
   "放つ": {
@@ -3914,6 +4078,12 @@
       "much": 2
     }
   },
+  "方": {
+    "NN": {
+      "It": 12,
+      "one": 6
+    }
+  },
   "渡す": {
     "VB": {
       "gave": 1,
@@ -3922,7 +4092,7 @@
   },
   "次に": {
     "RB": {
-      "then": 2
+      "Then": 2
     }
   },
   "借りる": {
@@ -3940,7 +4110,7 @@
   },
   "とりわけ": {
     "RB": {
-      "notably": 1
+      "Notably": 1
     }
   },
   "係る": {
@@ -3958,22 +4128,20 @@
       "was": 1
     }
   },
-  "張る": {
-    "VB": {
-      "put": 1,
-      "set": 1
-    }
-  },
   "さっそく": {
     "RB": {
       "immediately": 1
     }
   },
+  "張る": {
+    "VB": {
+      "set": 1
+    }
+  },
   "支える": {
     "VB": {
       "sustained": 1,
-      "propped": 1,
-      "supported": 2
+      "propped": 1
     }
   },
   "従う": {
@@ -3984,6 +4152,11 @@
   "公式": {
     "JJ": {
       "open": 1
+    }
+  },
+  "コス": {
+    "NNP": {
+      "Contest": 1
     }
   },
   "いらっしゃる": {
@@ -4032,11 +4205,6 @@
     "VB": {
       "linked": 1,
       "put": 1
-    }
-  },
-  "経つ": {
-    "VB": {
-      "been": 1
     }
   },
   "難しい": {
@@ -4090,18 +4258,14 @@
   "繰り返す": {
     "VB": {
       "repeated": 2,
-      "repeats": 1
+      "repeats": 1,
+      "repeat": 1
     }
   },
   "もう一度": {
     "RB": {
       "again": 2,
       "just": 1
-    }
-  },
-  "歌う": {
-    "VB": {
-      "sang": 1
     }
   },
   "写る": {
@@ -4111,7 +4275,7 @@
   },
   "きれい": {
     "JJ": {
-      "beautiful": 1
+      "Beautiful": 1
     }
   },
   "傾ける": {
@@ -4133,6 +4297,11 @@
   "さわやか": {
     "JJ": {
       "fresh": 1
+    }
+  },
+  "グラフ": {
+    "NNP": {
+      "January": 1
     }
   },
   "戻す": {
@@ -4163,8 +4332,7 @@
   },
   "飾る": {
     "VB": {
-      "make": 1,
-      "appeared": 1
+      "make": 1
     }
   },
   "促す": {
@@ -4177,7 +4345,7 @@
       "interesting": 2
     }
   },
-  "様々": {
+  "様様": {
     "JJ": {
       "various": 2
     }
@@ -4199,7 +4367,7 @@
   },
   "見詰める": {
     "VB": {
-      "stare": 1,
+      "Stare": 1,
       "stared": 1
     }
   },
@@ -4212,6 +4380,7 @@
   "できる": {
     "VB": {
       "expect": 1,
+      "is": 7,
       "enjoy": 2,
       "are": 2,
       "file": 2,
@@ -4219,10 +4388,14 @@
       "buy": 1,
       "has": 1,
       "participate": 1,
-      "is": 5,
       "wish": 1,
       "see": 1,
       "understand": 1
+    }
+  },
+  "載せる": {
+    "VB": {
+      "is": 1
     }
   },
   "吸う": {
@@ -4247,6 +4420,11 @@
       "opened": 1
     }
   },
+  "吹く": {
+    "VB": {
+      "blew": 1
+    }
+  },
   "頼む": {
     "VB": {
       "ask": 2
@@ -4258,16 +4436,15 @@
       "made": 1
     }
   },
-  "増す": {
-    "VB": {
-      "getting": 2,
-      "make": 1
-    }
-  },
   "激しい": {
     "JJ": {
       "stiffer": 1,
       "extreme": 1
+    }
+  },
+  "増す": {
+    "VB": {
+      "make": 1
     }
   },
   "見付かる": {
@@ -4292,9 +4469,9 @@
       "look": 1
     }
   },
-  "賑わう": {
-    "VB": {
-      "crowded": 2
+  "笠形山": {
+    "NNP": {
+      "Mt": 1
     }
   },
   "実に": {
@@ -4305,7 +4482,6 @@
   },
   "増やす": {
     "VB": {
-      "eat": 1,
       "increased": 2
     }
   },
@@ -4481,7 +4657,7 @@
   },
   "夕方": {
     "NN": {
-      "he": 1
+      "He": 1
     }
   },
   "来す": {
@@ -4505,6 +4681,16 @@
       "looked": 3
     }
   },
+  "家": {
+    "NN": {
+      "house": 16
+    }
+  },
+  "田園調布": {
+    "NNP": {
+      "Denenchofu": 1
+    }
+  },
   "美味しい": {
     "JJ": {
       "good": 3,
@@ -4516,11 +4702,6 @@
       "food": 2
     }
   },
-  "方": {
-    "NN": {
-      "one": 7
-    }
-  },
   "脱ぐ": {
     "VB": {
       "took": 1,
@@ -4530,6 +4711,11 @@
   "収める": {
     "VB": {
       "is": 2
+    }
+  },
+  "上海": {
+    "NNP": {
+      "Shanghai": 1
     }
   },
   "申し上げる": {
@@ -4567,14 +4753,12 @@
   },
   "贈る": {
     "VB": {
-      "send": 1,
       "give": 2
     }
   },
   "返す": {
     "VB": {
-      "is": 1,
-      "responded": 1
+      "is": 2
     }
   },
   "分ける": {
@@ -4589,7 +4773,7 @@
   },
   "行ける": {
     "VB": {
-      "go": 2
+      "is": 1
     }
   },
   "取れる": {
@@ -4658,7 +4842,6 @@
   },
   "繋ぐ": {
     "VB": {
-      "holds": 1,
       "connect": 2
     }
   },
@@ -4701,12 +4884,6 @@
       "wears": 1
     }
   },
-  "思わず": {
-    "RB": {
-      "away": 1,
-      "so": 1
-    }
-  },
   "仰ぐ": {
     "VB": {
       "said": 1
@@ -4721,11 +4898,6 @@
   "営む": {
     "VB": {
       "runs": 1
-    }
-  },
-  "平坦": {
-    "JJ": {
-      "flat": 1
     }
   },
   "叫ぶ": {
@@ -4776,9 +4948,9 @@
       "play": 1
     }
   },
-  "上回る": {
-    "VB": {
-      "surpassed": 1
+  "詳細": {
+    "JJ": {
+      "such": 1
     }
   },
   "過ごせる": {
@@ -4820,8 +4992,7 @@
   },
   "回す": {
     "VB": {
-      "puts": 1,
-      "wrapped": 1
+      "puts": 1
     }
   },
   "犯す": {
@@ -4832,6 +5003,11 @@
   "拘る": {
     "VB": {
       "take": 1
+    }
+  },
+  "涙": {
+    "NN": {
+      "I": 4
     }
   },
   "止まる": {
@@ -4925,14 +5101,9 @@
       "bring": 1
     }
   },
-  "言いよう": {
-    "NN": {
-      "i": 1
-    }
-  },
   "いう": {
     "VB": {
-      "is": 1
+      "is": 3
     }
   },
   "敷く": {
@@ -4963,8 +5134,7 @@
   },
   "尋ねる": {
     "VB": {
-      "asked": 1,
-      "asks": 1
+      "asked": 1
     }
   },
   "倒す": {
@@ -5025,7 +5195,8 @@
   "許す": {
     "VB": {
       "handed": 1,
-      "allows": 2
+      "allows": 2,
+      "is": 1
     }
   },
   "揃える": {
@@ -5040,13 +5211,7 @@
   },
   "上る": {
     "VB": {
-      "climbed": 1,
-      "come": 1
-    }
-  },
-  "よぎる": {
-    "VB": {
-      "run": 1
+      "climbed": 1
     }
   },
   "突如": {
@@ -5088,7 +5253,7 @@
   "盛る": {
     "VB": {
       "serving": 1,
-      "set": 1
+      "Set": 1
     }
   },
   "曲がる": {
@@ -5099,11 +5264,6 @@
   "たつ": {
     "VB": {
       "is": 1
-    }
-  },
-  "それほど": {
-    "RB": {
-      "not": 1
     }
   },
   "日ごろ": {
@@ -5123,7 +5283,7 @@
   },
   "かわいい": {
     "JJ": {
-      "adorable": 1,
+      "Adorable": 1,
       "cute": 1,
       "wet": 1
     }
@@ -5132,6 +5292,16 @@
     "VB": {
       "stand": 1,
       "is": 1
+    }
+  },
+  "納得": {
+    "NN": {
+      "It": 2
+    }
+  },
+  "いく": {
+    "VB": {
+      "is": 2
     }
   },
   "取り掛かる": {
@@ -5176,11 +5346,6 @@
       "was": 1
     }
   },
-  "襲う": {
-    "VB": {
-      "bears": 1
-    }
-  },
   "低い": {
     "JJ": {
       "low": 3,
@@ -5200,13 +5365,7 @@
   },
   "下回る": {
     "VB": {
-      "fallen": 1,
-      "is": 1
-    }
-  },
-  "貸す": {
-    "VB": {
-      "help": 1
+      "is": 2
     }
   },
   "就く": {
@@ -5225,6 +5384,11 @@
       "own": 1
     }
   },
+  "マレーシア": {
+    "NNP": {
+      "Malaysia": 1
+    }
+  },
   "叶える": {
     "VB": {
       "wish": 1
@@ -5234,6 +5398,11 @@
     "VB": {
       "let": 1,
       "betray": 1
+    }
+  },
+  "箱根": {
+    "NNP": {
+      "Barrier": 1
     }
   },
   "もしくは": {
@@ -5325,11 +5494,6 @@
       "deep": 2
     }
   },
-  "奥": {
-    "NN": {
-      "s": 1
-    }
-  },
   "楽": {
     "JJ": {
       "easier": 2
@@ -5403,7 +5567,7 @@
   },
   "どことなく": {
     "RB": {
-      "somehow": 1
+      "Somehow": 1
     }
   },
   "悩む": {
@@ -5443,13 +5607,17 @@
   },
   "埋める": {
     "VB": {
-      "buried": 1,
       "fills": 1
     }
   },
   "押し付ける": {
     "VB": {
       "passes": 1
+    }
+  },
+  "朝": {
+    "NNP": {
+      "First": 1
     }
   },
   "募る": {
@@ -5472,9 +5640,9 @@
       "lightly": 1
     }
   },
-  "雪": {
-    "NN": {
-      "snow": 4
+  "前穂高岳": {
+    "NNP": {
+      "Mt": 1
     }
   },
   "ビッグ": {
@@ -5484,8 +5652,7 @@
   },
   "弾く": {
     "VB": {
-      "play": 1,
-      "playing": 1
+      "play": 1
     }
   },
   "仕掛ける": {
@@ -5520,7 +5687,8 @@
   },
   "茹でる": {
     "VB": {
-      "boil": 2
+      "boil": 1,
+      "Boil": 1
     }
   },
   "サッと": {
@@ -5610,11 +5778,6 @@
       "keep": 1
     }
   },
-  "はまる": {
-    "VB": {
-      "was": 2
-    }
-  },
   "噛む": {
     "VB": {
       "regretted": 1
@@ -5625,9 +5788,9 @@
       "shrugs": 1
     }
   },
-  "育む": {
-    "VB": {
-      "makes": 1
+  "韓国": {
+    "NNP": {
+      "Koreans": 1
     }
   },
   "震える": {
@@ -5643,11 +5806,6 @@
   "責める": {
     "VB": {
       "blame": 1
-    }
-  },
-  "長い": {
-    "JJ": {
-      "long": 1
     }
   },
   "前置き": {
@@ -5761,6 +5919,11 @@
       "pays": 1
     }
   },
+  "民主党": {
+    "NNP": {
+      "Party": 1
+    }
+  },
   "あしらう": {
     "VB": {
       "dressed": 1
@@ -5784,7 +5947,7 @@
   },
   "ほう": {
     "NN": {
-      "it": 7
+      "It": 7
     }
   },
   "目立つ": {
@@ -5847,6 +6010,11 @@
       "color": 1
     }
   },
+  "神戸": {
+    "NNP": {
+      "Kobe": 1
+    }
+  },
   "競う": {
     "VB": {
       "did": 1
@@ -5854,7 +6022,7 @@
   },
   "煮る": {
     "VB": {
-      "simmer": 1
+      "Simmer": 1
     }
   },
   "絶する": {
@@ -5869,7 +6037,7 @@
   },
   "お腹": {
     "NN": {
-      "i": 1
+      "I": 1
     }
   },
   "沸く": {
@@ -5877,9 +6045,14 @@
       "was": 1
     }
   },
+  "米国": {
+    "NNP": {
+      "States": 1
+    }
+  },
   "漬ける": {
     "VB": {
-      "soak": 1
+      "Soak": 1
     }
   },
   "確かめる": {
@@ -5892,9 +6065,9 @@
       "finish": 1
     }
   },
-  "治る": {
-    "VB": {
-      "gotten": 1
+  "風邪": {
+    "NN": {
+      "I": 2
     }
   },
   "引き上げる": {
@@ -5917,6 +6090,11 @@
       "broke": 1
     }
   },
+  "供する": {
+    "VB": {
+      "is": 1
+    }
+  },
   "下りる": {
     "VB": {
       "went": 1
@@ -5924,22 +6102,7 @@
   },
   "調える": {
     "VB": {
-      "finish": 1
-    }
-  },
-  "付き合う": {
-    "VB": {
-      "dated": 1
-    }
-  },
-  "被せる": {
-    "VB": {
-      "cover": 1
-    }
-  },
-  "出会える": {
-    "VB": {
-      "find": 1
+      "Finish": 1
     }
   },
   "取り纏める": {
@@ -5949,7 +6112,7 @@
   },
   "やがて": {
     "RB": {
-      "eventually": 1
+      "Eventually": 1
     }
   },
   "踊る": {
@@ -5997,9 +6160,19 @@
       "clapped": 1
     }
   },
+  "揚げる": {
+    "VB": {
+      "Fry": 1
+    }
+  },
   "召す": {
     "VB": {
       "seems": 1
+    }
+  },
+  "尽きる": {
+    "VB": {
+      "is": 1
     }
   },
   "深刻": {
@@ -6012,14 +6185,19 @@
       "was": 1
     }
   },
+  "負ける": {
+    "VB": {
+      "give": 1
+    }
+  },
   "炊く": {
     "VB": {
       "cooked": 1
     }
   },
-  "メーカー": {
-    "NN": {
-      "manufacturers": 1
+  "満": {
+    "NNP": {
+      "Manufacturers": 1
     }
   },
   "丸い": {
@@ -6069,12 +6247,7 @@
   },
   "心": {
     "NN": {
-      "i": 7
-    }
-  },
-  "書ける": {
-    "VB": {
-      "have": 1
+      "I": 8
     }
   },
   "触る": {
@@ -6139,7 +6312,7 @@
   },
   "捨てる": {
     "VB": {
-      "don": 1
+      "do": 1
     }
   },
   "高水準": {
@@ -6155,11 +6328,6 @@
   "振り込む": {
     "VB": {
       "designated": 1
-    }
-  },
-  "蒔く": {
-    "VB": {
-      "sows": 1
     }
   },
   "必死": {
@@ -6194,12 +6362,12 @@
   },
   "差し引く": {
     "VB": {
-      "deduct": 1
+      "Deduct": 1
     }
   },
-  "行き届く": {
-    "VB": {
-      "cared": 1
+  "手入れ": {
+    "NN": {
+      "It": 1
     }
   },
   "遡る": {
@@ -6214,7 +6382,7 @@
   },
   "発する": {
     "VB": {
-      "don": 1
+      "do": 1
     }
   },
   "苦しめる": {
@@ -6242,11 +6410,6 @@
       "gradually": 1
     }
   },
-  "どれ": {
-    "NN": {
-      "s": 2
-    }
-  },
   "突き出す": {
     "VB": {
       "stuck": 1
@@ -6257,19 +6420,9 @@
       "puts": 1
     }
   },
-  "探せる": {
-    "VB": {
-      "find": 1
-    }
-  },
   "明確": {
     "JJ": {
       "strong": 1
-    }
-  },
-  "剥がす": {
-    "VB": {
-      "peel": 1
     }
   },
   "若しくは": {
@@ -6280,11 +6433,6 @@
   "切り替える": {
     "VB": {
       "bounces": 1
-    }
-  },
-  "覗く": {
-    "VB": {
-      "looked": 1
     }
   },
   "悔しい": {
@@ -6302,9 +6450,9 @@
       "goes": 1
     }
   },
-  "売れる": {
-    "VB": {
-      "selling": 1
+  "商品": {
+    "NN": {
+      "They": 2
     }
   },
   "得意": {
@@ -6330,7 +6478,7 @@
   },
   "体": {
     "NN": {
-      "i": 6
+      "I": 6
     }
   },
   "帰れる": {
@@ -6366,11 +6514,6 @@
   "勝ち取る": {
     "VB": {
       "won": 1
-    }
-  },
-  "負える": {
-    "VB": {
-      "handle": 1
     }
   },
   "似合う": {
@@ -6415,12 +6558,17 @@
   },
   "喉": {
     "NN": {
-      "i": 1
+      "I": 1
     }
   },
   "渇く": {
     "VB": {
       "get": 1
+    }
+  },
+  "しきりに": {
+    "RB": {
+      "not": 1
     }
   },
   "赤らめる": {
@@ -6440,7 +6588,7 @@
   },
   "いまや": {
     "RB": {
-      "now": 1
+      "Now": 1
     }
   },
   "ぴったり": {
@@ -6540,7 +6688,7 @@
   },
   "肩身": {
     "NN": {
-      "i": 1
+      "I": 1
     }
   },
   "仕舞う": {
