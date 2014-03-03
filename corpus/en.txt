@@ -3,7 +3,7 @@ I always think X would be nice.
 It always seems like it is there.
 I honestly feel like there is too much.
 I think that Yamada is the type everybody likes.
-Someone thought that ?
+Someone thought that X
 X seems like it's really tough.
 I think X is just a matter of time.
 I think that X will become an issue in the future.
@@ -303,7 +303,7 @@ There are many actual achievements in the development of business systems.
 There many opinions on X.
 I want to ask all of you two questions. 
 There is no limit on quantity.
-Someone has said clearly ?.
+Someone has said clearly X.
 He told me clearly what he intended to do.
 Mr./Ms. Yamada sounded relieved to tell me.
 Shops that make their own noodles are said to account for 80% of shops.
@@ -798,7 +798,7 @@ There is no alternative.
 There is still no reply.
 He has never come all the way out here to ask about that.
 I didn't have enough courage yet.
-My teacher always say, I'm ?.
+My teacher always say, I'm X.
 The store clerk said that to him.
 It is said that is effective.
 It's said this period lasts for three months.
@@ -825,14 +825,14 @@ He felt that he had reached the limits of his strength.
 It came as a fresh reminder that all of you are very concerned about that.
 In the cold, I can feel spring is coming little by little.
 I feel the passage of time.
-I felt ?.
+I felt X.
 The cool wind blowing through the valley feels like autumn.
 He felt like there was something behind him then.
 I feel wind on my skin.
 I can see the owner is dedicated to X.
 I did not feel very cold.
 I still feel I lack skills.
-I heard the rumor that ?.
+I heard the rumor that X.
 Please listen to that person carefully.
 He doesn't listen to anyone.
 Everyone listened to the teacher carefully.
@@ -867,7 +867,7 @@ A few operations are required for Linux.
 A certain degree of knowledge is required.
 Conversational-level Spanish proficiency is required.
 A lot of time is still needed before it can be used.
-Something is needed.?
+Something is needed.　
 In any case, the permission of the prefecture governor is required.
 Early treatment is needed in this case as well.
 First of all, we need to establish a cooperative forum for both citizens and the administration.
@@ -948,7 +948,7 @@ In the winter of my junior year, I got a call from a friend.
 Two X are packed.
 Let's get to the actual work now.
 He entered university.
-The first ? is supposed to be checked.
+The first ○ is supposed to be checked.
 He is in his own little world.
 Information will be obtained quickly.
 The muscle of my left foot is tensing up.
@@ -1646,7 +1646,7 @@ He talks with people in the shop.
 He spoke English fluently.
 He told X to the people around him.
 What is he going to tell who?
-The agency announced ? on the 24th.
+The agency announced X on the 24th.
 He released the results of the fact-finding survey.
 He presented these results at a conference.
 He has produced many works.
@@ -2078,7 +2078,7 @@ The work was finally done at 11 o'clock.
 The organ transplant itself will end in failure.
 I spent one day on X.
 The matches all finally ended last week.
-? and the new chairmen talked about their plans for the future.
+X and the new chairmen talked about their plans for the future.
 They gave their own opinions.
 He won't tell us about X.
 Dr. Yamada from the osteopathic clinic will talk.
@@ -2686,7 +2686,7 @@ He reports on the daily circulation status either that day or by the morning of 
 He reports the facts and results immediately to the committee.
 He immediately reports the result to the mayor.
 He reports X to the guests.
-In 1998, he had reported that ?.
+In 1998, he had reported that X.
 It contains more active ingredients.
 It contains a lot more carcinogens.
 Also, sales tax and shipping are included in the retail price.
@@ -3441,7 +3441,7 @@ An autumn breeze always blows.
 A strong wind blows.
 That was when the referee blew his whistle.
 He asks for a beer to start off with.
-He asked ? and me for help.
+He asked X and me for help.
 He will ask local people to work for me.
 I will never ask someone like that.
 You have to improve your skills constantly.
@@ -3838,7 +3838,7 @@ She wears high-heeled shoes.
 When we played golf, my friend wore a pair of five-toed socks.
 The beauty took everyone's breath away.
 You will be totally captivated by the beauty.
-Mr. Yamada always said ?.
+Mr. Yamada always said X.
 He will save the phone-directory data into a hard disk.
 The users save the file to their floppy disks. 
 First, save the compressed file to your computer hard disk.
@@ -3856,7 +3856,7 @@ Many committee members express the opinion that it would be difficult.
 Many requests will be coming from the committee members.
 He runs his own business.
 Most people live on flat land.
-?, a voice shouted in his head.
+X, a voice shouted in his head.
 He will shout his love for his wife.
 He accidentally yells out his own name.
 Unauthorized copying and replication of the contents of this site, text and images are strictly prohibited. All Rights Reserved. 
@@ -3926,7 +3926,7 @@ The Kyoto district election has developed into a close three-way race with the n
 He started to drive to Kyoto again.
 He bicycled slowly toward the northern part of the police station area of jurisdiction.
 Many problems have already been pointed out.
-A friend of mine pointed out that ?.?
+A friend of mine pointed out that X.　
 X has been pointed out.
 Each of them took their own path.
 We'll spend our lives together.
@@ -3938,7 +3938,7 @@ However, X is excluded.
 Except Sundays and the day before national holidays.
 Stays on Sundays and national holidays are excluded.
 My name is Taro Yamada.
-My mother said ?
+My mother said X
 She gently puts her arms around me.
 He gently wrapped his arms around his childhood friend's neck.
 He kept on filming.
@@ -4009,7 +4009,7 @@ We can carry out industrial waste disposal.
 The players led the team to a last-minute victory.
 Our expertise will lead your business to success.
 Our estheticians will bring out the best in your skin.
-I have nothing left to say except ?.
+I have nothing left to say except X.
 I've never brought it with me.
 He focuses on the power of water.
 He emphasizes education of the mind.
@@ -4069,7 +4069,7 @@ He handed Mr. Yamada a come-from-behind victory in the total score.
 He allows himself X.
 It's unrivaled by any other companies.
 We carry a lot of products.
-Many people say ?.
+Many people say X.
 I will apply for the grant as follows:
 The applicants themselves apply for a PIN registration from the mayor.
 The stately interior creates a mature impression.
@@ -4207,7 +4207,7 @@ He has already spent a lot of time on X.
 He spends most of his time doing work.
 He blows the chance of a lifetime
 It will always give you the perfect boiling time.
-Notification of ? was given on the 24th.
+Notification of X was given on the 24th.
 The household is covered by the company health insurance.
 Everyone must join the national pension plan.
 He will work a job related to food soon.
@@ -4334,7 +4334,7 @@ All of a sudden, memories from just before came rushing back.
 The government will take the necessary measures.
 He told himself so.
 He fully exerted his own strength.
-My relatives were quite happy about ?.
+My relatives were quite happy about X.
 Everyone is really happy about X.
 The activities were printed in the papers.
 They slowly began to trust each other.
@@ -4433,7 +4433,7 @@ The top of Mt. Maehotaka is hidden in the clouds.
 He will play the guitar in a big band for the first time.
 He's playing the piano at home for the first time in a while.
 An Iran Culture Week event in Tokyo is planned for May.
-It's more accurate to say ?.
+It's more accurate to say X.
 He will launch two attacks.
 He gets enough to eat.
 He gets enough water.
@@ -4658,7 +4658,7 @@ I give motion sickness medicine to children.
 Polyphenol can remove active oxygen in body.
 He has been bothered by a headache since Tuesday.
 The population went down by 10,680 in 45 years.
-He stated ? after the race.
+He stated X after the race.
 It requires all lenders submit a report.
 He saw a doctor at a nearby general hospital.
 Six fish were caught in two hours.
@@ -4672,7 +4672,7 @@ He always wears a surgical mask when he goes out.
 As a result, orders for 1,500 of them from 1,000 people rushed in.
 An executive director and staff can be assigned to the office.
 He often has stomachaches.
-His eyes are shining as if to say ?.
+His eyes are shining as if to say X.
 66% of people answered that the medical insurance burden should be eased.
 Our company moved our office to the following place on 16th.
 Now you are looking at our company website.
@@ -4740,16 +4740,16 @@ It absorbs the moisture in the air immediately.
 He is considered a/an X.
 He has a passion for X.
 It’s really arduous.
-Someone has speculated ?.
+Someone has speculated X.
 I get hungry again soon after eating.
 It hydrates the skin well.
 I had a hard time deciding on it.
 The scientific information is available to everyone.
 A lot of people were gathered around Mr./Mrs. Yamada.
-The minister said ?.
+The minister said X.
 There was a lot of interest.
 He took six different medicines at the same time.
-The court judged that ?.
+The court judged that X.
 A show about what bodyguards do was on TV today.
 The United States is leading the world in many fields.
 Green and yellow vegetables are especially rich in various vitamins.
@@ -4770,7 +4770,7 @@ He was sitting quietly in the chair in front of the table.
 Your comments are used to improve our service. 
 Energy is used when ATP is released from the enzyme.
 X was suggested.
-On the 12th, the newspaper reported that ?.
+On the 12th, the newspaper reported that X.
 My home computer finally broke down.
 X is becoming very difficult.
 540 courses are offered.
@@ -4839,7 +4839,7 @@ For the knees, bend the part below the knees back.
 Immediate effects were seen on the girl's body.
 He must be X.
 She clapped her hands over her ears at the voice.
-Fry it crispy in oil at 180?C.
+Fry it crispy in oil at 180˚C.
 There are books scattered on the floor.
 It has been given a refreshing taste for adults.
 The light lights up our feet.
@@ -4968,7 +4968,7 @@ He goes around to cherry blossom viewing spots.
 He is majoring in aerospace engineering at university.
 We don't litter roads and rivers.
 For adults, one 100mg dose is administered immediately after meals.
-? and he greeted fans.
+X and he greeted fans.
 Doctors monitor a patient's condition carefully.
 Let's calculate the actual resident tax for fiscal year 2007.
 He learns how to make business applications.
@@ -5002,7 +5002,7 @@ If you complete this one-year program, you will be eligible to take the social w
 I will select the person in charge of the personal information protection.
 He is making fun of others.
 The dear cuts across the front of the car twice.
-People at the company lament that ?.
+People at the company lament that X.
 Could you put your comments on the blog?
 It stems from X.
 Each student takes their designated courses.
@@ -5095,11 +5095,11 @@ Diet member Yamada was admitted to a Tokyo hospital at night.
 It's too bad that X.
 And then he breathed his last at the hospital.
 He actively goes all over the world.
-I shared my feelings with ? about the practical.
+I shared my feelings with X about the practical.
 You always surprise people around you.
 First, irradiate a small part with the laser.
 First of all, I was stunned by X.
-Everyone declared ?.
+Everyone declared X.
 They aren't selling at all.
 His classes are centered around X.
 I'm better at writing novels.
@@ -5226,7 +5226,7 @@ He is engrossed in their research as usual.
 Almost 80% are accompanied by heart disease complications.
 It makes me keep myself going.
 I can meet a lot of you.
-The Bible says ?.
+The Bible says X.
 Mr. Yamada is surrounded by 10 people.
 Those who wish to attend are asked to write their name, address, age and telephone number on a postcard. 
 It has been televised more recently.
