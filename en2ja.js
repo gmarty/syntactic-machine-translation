@@ -3,7 +3,7 @@
 'use strict';
 
 var fs = require('fs');
-var pos = require('pos');
+var Pos = require('pos');
 
 var jsposTable = require('./utils/jspos2simplified-map.json');
 var enConverter = require('./pos-converter/en.json');
@@ -22,8 +22,8 @@ translate(source);
 function translate(source) {
   var sentence = source.toLowerCase();
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
-  var words = new pos.Lexer().lex(sentence);
-  words = new pos.Tagger().tag(words);
+  var words = new Pos.Lexer().lex(sentence);
+  words = new Pos.Tagger().tag(words);
   var enPos = words.map(function(word) {
     if (jsposTable[word[1]]) {
       word[1] = jsposTable[word[1]];
@@ -109,7 +109,8 @@ function translate(source) {
   });
 
   ja = ja.join('');
+
+  fs.writeFileSync('./translation.txt', ja, {encoding: 'utf8'});
+
   return ja;
 }
-
-fs.writeFileSync('./translation.txt', ja, {encoding: 'utf8'});
