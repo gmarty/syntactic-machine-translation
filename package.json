@@ -4,7 +4,8 @@
   "description": "Hacking a quick and dirty machine translation",
   "dependencies": {
     "lodash": "~2.4.1",
-    "pos": "~0.1.4"
+    "pos": "~0.1.4",
+    "natural": "~0.1.26"
   },
   "devDependencies": {},
   "scripts": {
