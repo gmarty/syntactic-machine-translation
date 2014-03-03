@@ -4,6 +4,7 @@
 
 var fs = require('fs');
 var Pos = require('pos');
+var enNormalize = require('./utils/en-normalizer.js');
 
 var jsposTable = require('./utils/jspos2simplified-map.json');
 var enConverter = require('./pos-converter/en.json');
@@ -21,6 +22,7 @@ translate(source);
 
 function translate(source) {
   var sentence = source;
+  sentence = enNormalize(sentence);
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
   //sentence = sentence.replace(/(\.|;|,|:)+$/, ''); // Remove punctuation.
   var words = new Pos.Lexer().lex(sentence);

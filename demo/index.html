@@ -11,6 +11,8 @@
 <script src="jspos/lexicon.js_"></script>
 <script src="jspos/POSTagger.js"></script>
 <script>
+'use strict';
+
 // Load synchronously for the sake of simplicity.
 function require(url) {
   var xhr = new XMLHttpRequest();
@@ -20,6 +22,33 @@ function require(url) {
   xhr.setRequestHeader('Accept', 'application/json, text/javascript, */*; q=0.01');
   xhr.send();
   return JSON.parse(xhr.response);
+}
+
+// From utils/en-normalizer.js
+var rules = [
+  {regex: /\bcan't\b/ig, output: 'cannot'},
+  {regex: /\bwon't\b/ig, output: 'will not'},
+  {regex: /\bcouldn't've\b/ig, output: 'could not have'},
+  {regex: /\bwouldn't've\b/ig, output: 'would not have'},
+  {regex: /\bi'm\b/ig, output: 'I am'},
+  {regex: /\bhow'd\b/ig, output: 'how did'},
+  {regex: /\blet's\b/ig, output: 'let us'},
+  {regex: /\b(it|that|there|he|she)'s (been|got|gotten)\b/ig, output: '$1 has $2'},
+  {regex: /\b(it|that|there|he|she)'s (a|an|the|this)\b/ig, output: '$1 is $2'},
+  {regex: /\b(it|that|there|he|she)'s (.+)ing\b/ig, output: '$1 is $2ing'},
+  //{regex: /\b([a-z]*)'s/ig, output: '$1 is'},
+  {regex: /\b([a-z]*)n't/ig, output: '$1 not'},
+  {regex: /\b([a-z]*)'ll/ig, output: '$1 will'},
+  {regex: /\b([a-z]*)'re/ig, output: '$1 are'},
+  {regex: /\b([a-z]*)'ve/ig, output: '$1 have'},
+  {regex: /\b([a-z]*)'d/ig, output: '$1 would'}
+];
+
+function enNormalize(str) {
+  rules.forEach(function(rule) {
+    str = str.replace(rule.regex, rule.output);
+  });
+  return str;
 }
 </script>
 <script>
@@ -62,7 +91,8 @@ function translate(source) {
   // The POS common to both Chasen and js-pos.
   var posItems = ["UH", "RB", "JJ", "NN", "NNP", "CD", "SYM", ".", ":", "(", ")", "VB", "CC"];
 
-  var sentence = source.toLowerCase();
+  var sentence = source;
+  sentence = enNormalize(sentence);
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
   var words = new pos.Lexer().lex(sentence);
   words = new pos.Tagger().tag(words);
