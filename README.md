@@ -22,7 +22,7 @@ js-pos.
 If there are several POS of the same type in the source sentence, then the order is preserved in the
 translation. This can lead to grammatical mistakes.
 
-The corpus used is a bit small and contains only 5,304 pairs.
+The corpus used is a bit small and contains only 4,737 pairs.
 
 The web version only allows translating from English to Japanese as Chasen can't run in the browser.
 
