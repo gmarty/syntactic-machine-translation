@@ -26,6 +26,10 @@ var enPos = require('./corpus-tagged/en.json');
 
 var jaConverter = {};
 var enConverter = {};
+
+var jaConverterString = '';
+var enConverterString = '';
+
 var sentence = ''; // Temporary variable.
 
 for (var i = 0; i < jaPos.length; i++) {
@@ -55,6 +59,8 @@ for (var i = 0; i < jaPos.length; i++) {
     jaConverter[jaPos[i]]['commons'][index][word]++;
   });
 
+  jaConverterString += jaPos[i] + '\n';
+
   // Expand the English POS converter.
   if (!enConverter[enPos[i]]) {
     enConverter[enPos[i]] = {
@@ -80,7 +86,15 @@ for (var i = 0; i < jaPos.length; i++) {
     }
     enConverter[enPos[i]]['commons'][index][word]++;
   });
+
+  enConverterString += enPos[i] + '\n';
 }
+
+jaConverterString = jaConverterString.trim();
+enConverterString = enConverterString.trim();
 
 fs.writeFileSync('./pos-converter/ja.json', JSON.stringify(jaConverter, null, '  '), {encoding: 'utf8'});
 fs.writeFileSync('./pos-converter/en.json', JSON.stringify(enConverter, null, '  '), {encoding: 'utf8'});
+
+fs.writeFileSync('./pos-converter/ja.txt', jaConverterString, {encoding: 'utf8'});
+fs.writeFileSync('./pos-converter/en.txt', enConverterString, {encoding: 'utf8'});
