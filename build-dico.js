@@ -37,7 +37,7 @@ jaPos = jaPos.map(function(sentence) {
     } else {
       word[2] = 'Unknown';
     }
-    word = [word[0], word[2]];
+    word = [word[1], word[2]];
     //word = word.join('|');
     return word;
   });
