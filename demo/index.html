@@ -34,7 +34,7 @@ document.querySelector('button').addEventListener('click', function(e) {
 
 var enConverter = require('./pos-converter/en.json');
 var jaConverter = require('./pos-converter/ja.json');
-var jaDico = require('./dictionary/en.json');
+var enDico = require('./dictionary/en.json');
 
 function translate(source) {
   var pos = {
@@ -117,10 +117,10 @@ function translate(source) {
 
         var enWord = enWords[wordIndex];
 
-        if (!jaDico[enWord]) {
+        if (!enDico[enWord.toLowerCase()]) {
           return false;
         }
-        var jaWord = jaDico[enWord][pos];
+        var jaWord = enDico[enWord.toLowerCase()][pos];
 
         var value = -1;
         for (var i in jaWord) {

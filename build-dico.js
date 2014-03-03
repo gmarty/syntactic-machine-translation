@@ -59,7 +59,7 @@ jaPos = jaPos.map(function(sentence) {
 
 // Generate the tagged corpus in EN.
 var enPos = [];
-enCorpus = enCorpus.toLowerCase().split('\r\n');
+enCorpus = enCorpus.split('\r\n');
 enCorpus.map(function(sentence) {
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
   var words = new pos.Lexer().lex(sentence);
@@ -99,27 +99,29 @@ for (var i = 0; i < jaPos.length; i++) {
   // For each posItem, find a sentence where it is only one in each pair.
   posItems.forEach(function(posItem) {
     if (jaPos[i][posItem] && enPos[i][posItem] && jaPos[i][posItem].length === 1 && enPos[i][posItem].length === 1) {
-      if (!jaDico[jaPos[i][posItem][0]]) {
-        jaDico[jaPos[i][posItem][0]] = {};
+      var key = jaPos[i][posItem][0].toLowerCase();
+      if (!jaDico[key]) {
+        jaDico[key] = {};
       }
-      if (!jaDico[jaPos[i][posItem][0]][posItem]) {
-        jaDico[jaPos[i][posItem][0]][posItem] = {};
+      if (!jaDico[key][posItem]) {
+        jaDico[key][posItem] = {};
       }
-      if (!jaDico[jaPos[i][posItem][0]][posItem][enPos[i][posItem][0]]) {
-        jaDico[jaPos[i][posItem][0]][posItem][enPos[i][posItem][0]] = 0;
+      if (!jaDico[key][posItem][enPos[i][posItem][0]]) {
+        jaDico[key][posItem][enPos[i][posItem][0]] = 0;
       }
-      jaDico[jaPos[i][posItem][0]][posItem][enPos[i][posItem][0]]++;
+      jaDico[key][posItem][enPos[i][posItem][0]]++;
 
-      if (!enDico[enPos[i][posItem][0]]) {
-        enDico[enPos[i][posItem][0]] = {};
+      key = enPos[i][posItem][0].toLowerCase();
+      if (!enDico[key]) {
+        enDico[key] = {};
       }
-      if (!enDico[enPos[i][posItem][0]][posItem]) {
-        enDico[enPos[i][posItem][0]][posItem] = {};
+      if (!enDico[key][posItem]) {
+        enDico[key][posItem] = {};
       }
-      if (!enDico[enPos[i][posItem][0]][posItem][jaPos[i][posItem][0]]) {
-        enDico[enPos[i][posItem][0]][posItem][jaPos[i][posItem][0]] = 0;
+      if (!enDico[key][posItem][jaPos[i][posItem][0]]) {
+        enDico[key][posItem][jaPos[i][posItem][0]] = 0;
       }
-      enDico[enPos[i][posItem][0]][posItem][jaPos[i][posItem][0]]++;
+      enDico[key][posItem][jaPos[i][posItem][0]]++;
 
       // We remove the entries from jaPos/enPos to prepare the 2nd pass.
       delete jaPos[i][posItem];
@@ -154,16 +156,9 @@ function secondpass() {
           return;
         }
 
-        if (i === 0 && posItem === 'NN') {
-          console.log('*', '|' + word + '|', posItem)
-          console.log(jaDico[word])
-        }
-
-        if (jaDico[word] && jaDico[word][posItem]) {
-          var enWords = jaDico[word][posItem];
-          if (i === 0 && posItem === 'NN') {
-            console.log('abc')
-          }
+        var key = word.toLowerCase();
+        if (jaDico[key] && jaDico[key][posItem]) {
+          var enWords = jaDico[key][posItem];
           var bestMatch = '';
           var bestMatchPosition = 0;
           for (var enWord in enWords) {
@@ -175,9 +170,9 @@ function secondpass() {
           }
 
           if (bestMatch !== '') {
-            jaDico[word][posItem][bestMatch]++;
-            enDico[bestMatch][posItem][word]++;
-            tmp[word] = bestMatch;
+            jaDico[key][posItem][bestMatch]++;
+            enDico[bestMatch.toLowerCase()][posItem][word]++;
+            tmp[key] = bestMatch;
             tmpCount++;
 
             // We remove the entries from jaPos/enPos to prepare the 2nd pass.
@@ -213,8 +208,6 @@ console.log(jaPos[1]);
 console.log(enPos[1]);
 console.log(jaPos[2]);
 console.log(enPos[2]);
-
-console.log(jaDico['﻿']);
 
 fs.writeFileSync('./dictionary/ja-unmatched.json', JSON.stringify(jaPos, null, '  '), {encoding: 'utf8'});
 fs.writeFileSync('./dictionary/en-unmatched.json', JSON.stringify(enPos, null, '  '), {encoding: 'utf8'});

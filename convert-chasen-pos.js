@@ -8,7 +8,7 @@
  * "C:\Program Files (x86)\ChaSen\chasen.exe" -F "%U(%P-)|" C:\Users\FCHGMX\Dropbox\Dev\www\js-demo\machine-translation\corpus\ja.txt > C:\Users\FCHGMX\Dropbox\Dev\www\js-demo\machine-translation\corpus-tagged\ja-raw.txt
  * ```
  *
- * Convert `corpus-tagged\ja.txt` to UTF-8.
+ * Convert `corpus-tagged\ja-raw.txt` to UTF-8.
  *
  * Run this script.
  */

@@ -8,7 +8,7 @@ var Pos = require('pos');
 var jsposTable = require('./utils/jspos2simplified-map.json');
 var enConverter = require('./pos-converter/en.json');
 var jaConverter = require('./pos-converter/ja.json');
-var jaDico = require('./dictionary/en.json');
+var enDico = require('./dictionary/en.json');
 
 // The POS common to both Chasen and js-pos.
 var posItems = ["UH", "RB", "JJ", "NN", "NNP", "CD", "SYM", ".", ":", "(", ")", "VB", "CC"];
@@ -20,7 +20,7 @@ var source = 'I am happy.';
 translate(source);
 
 function translate(source) {
-  var sentence = source.toLowerCase();
+  var sentence = source;
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
   var words = new Pos.Lexer().lex(sentence);
   words = new Pos.Tagger().tag(words);
@@ -75,10 +75,10 @@ function translate(source) {
 
         var enWord = enWords[wordIndex];
 
-        if (!jaDico[enWord]) {
+        if (!enDico[enWord.toLowerCase()]) {
           return false;
         }
-        var jaWord = jaDico[enWord][pos];
+        var jaWord = enDico[enWord.toLowerCase()][pos];
 
         var value = -1;
         for (var i in jaWord) {
