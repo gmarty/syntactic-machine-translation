@@ -30,8 +30,12 @@ function translate(source) {
     }
     return word[1];
   });
-  var enWords = words.map(function(word) {
-    return word[0];
+  var enWords = {};
+  words.forEach(function(word) {
+    if (!enWords[word[1]]) {
+      enWords[word[1]] = [];
+    }
+    enWords[word[1]].push(word[0]);
   });
   enPos = enPos.join('|');
 
@@ -73,7 +77,9 @@ function translate(source) {
           return false;
         }
 
-        var enWord = enWords[wordIndex];
+        // We're translating the POS in the original order. Ex if source has 2 NN, they will be
+        // translated in the same order: NN1, then NN2.
+        var enWord = enWords[pos].splice(0, 1).join();
 
         if (!enDico[enWord.toLowerCase()]) {
           return false;

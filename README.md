@@ -19,6 +19,9 @@ of POS. I tried to match them as best as I could. See `utils/jspos2simplified-ma
 used to simplify js-pos classes and `utils/chasen2jspos-map.json` for the mapping between Chasen and
 js-pos.
 
+If there are several POS of the same type in the source sentence, then the order is preserved in the
+translation. This can lead to grammatical mistakes.
+
 The corpus used is a bit small and contains only 5,304 pairs.
 
 The web version only allows translating from English to Japanese as Chasen can't run in the browser.
