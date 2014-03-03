@@ -15,7 +15,8 @@ var jaCorpus = '' + fs.readFileSync('./corpus/ja-utf8.txt', {encoding: 'utf8'});
 
 jaCorpus = jaCorpus.split('\r\n');
 jaCorpus = jaCorpus.map(function(sentence) {
-  return jaNormalize(sentence);
+  sentence = jaNormalize(sentence);
+  return sentence;
 });
 jaCorpus = jaCorpus.join('\r\n');
 
