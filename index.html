@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Machine translation from English to Japanese</title>
+</head>
+<body>
+<h1>Machine translation from English to Japanese</h1>
+<input value="I am happy!">
+<button disabled>Translate</button>
+<blockquote></blockquote>
+<script src="jspos/lexer.js"></script>
+<script src="jspos/lexicon.js_"></script>
+<script src="jspos/POSTagger.js"></script>
+<script>
+'use strict';
+
+var jsonToLoad = 0;
+var jsonReceived = 0;
+
+function require(url, key, callback) {
+  jsonToLoad++;
+
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', url, true);
+  xhr.responseType = 'json';
+  xhr.overrideMimeType && xhr.overrideMimeType('application/json');
+  xhr.setRequestHeader('Accept', 'application/json, text/javascript, */*; q=0.01');
+  xhr.addEventListener('load', function(event) {
+    var status = event.target.status;
+    if (status === 200) {
+      window[key] = event.target.response;
+
+      jsonReceived++;
+      if (jsonReceived === jsonToLoad) {
+        callback();
+      }
+    } else {
+      console.error(event.target);
+    }
+  }, false);
+  xhr.send();
+}
+
+// From utils/en-normalizer.js
+var rules = [
+  {regex: /\bcan't\b/ig, output: 'cannot'},
+  {regex: /\bwon't\b/ig, output: 'will not'},
+  {regex: /\bcouldn't've\b/ig, output: 'could not have'},
+  {regex: /\bwouldn't've\b/ig, output: 'would not have'},
+  {regex: /\bi'm\b/ig, output: 'I am'},
+  {regex: /\bhow'd\b/ig, output: 'how did'},
+  {regex: /\blet's\b/ig, output: 'let us'},
+  {regex: /\b(it|that|there|he|she)'s (been|got|gotten)\b/ig, output: '$1 has $2'},
+  {regex: /\b(it|that|there|he|she)'s (a|an|the|this)\b/ig, output: '$1 is $2'},
+  {regex: /\b(it|that|there|he|she)'s (.+)ing\b/ig, output: '$1 is $2ing'},
+  //{regex: /\b([a-z]*)'s/ig, output: '$1 is'},
+  {regex: /\b([a-z]*)n't/ig, output: '$1 not'},
+  {regex: /\b([a-z]*)'ll/ig, output: '$1 will'},
+  {regex: /\b([a-z]*)'re/ig, output: '$1 are'},
+  {regex: /\b([a-z]*)'ve/ig, output: '$1 have'},
+  {regex: /\b([a-z]*)'d/ig, output: '$1 would'}
+];
+
+function enNormalize(str) {
+  rules.forEach(function(rule) {
+    str = str.replace(rule.regex, rule.output);
+  });
+  return str;
+}
+</script>
+<script>
+'use strict';
+
+var input = document.querySelector('input');
+var output = document.querySelector('blockquote');
+var button = document.querySelector('button');
+button.setAttribute('disabled', 'disabled');
+button.addEventListener('click', function(e) {
+  var translation = translate(input.value);
+  output.textContent = translation;
+}, false);
+var callback = function() {
+  button.removeAttribute('disabled');
+};
+
+require('./pos-converter/en.json', 'enConverter', callback);
+require('./pos-converter/ja.json', 'jaConverter', callback);
+require('./dictionary/en.json', 'enDico', callback);
+
+function translate(source) {
+  var pos = {
+    Lexer: Lexer,
+    Tagger: POSTagger
+  };
+
+  var jsposTable = {
+    "JJR": "JJ",
+    "JJS": "JJ",
+    "NNPS": "NNP",
+    "NNS": "NN",
+    "RBR": "RB",
+    "RBS": "RB",
+    "VBD": "VB",
+    "VBG": "VB",
+    "VBN": "VB",
+    "VBP": "VB",
+    "VBZ": "VB",
+    "WP$": "WP",
+    "PRP$": "NN",
+    "PRP": "NN"
+  };
+
+  // The POS common to both Chasen and js-pos.
+  var posItems = ["UH", "RB", "JJ", "NN", "NNP", "CD", "SYM", ".", ":", "(", ")", "VB", "CC"];
+
+  var sentence = source;
+  sentence = enNormalize(sentence);
+  sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
+  var words = new pos.Lexer().lex(sentence);
+  words = new pos.Tagger().tag(words);
+  var enPos = words.map(function(word) {
+    if (jsposTable[word[1]]) {
+      word[1] = jsposTable[word[1]];
+    }
+    return word[1];
+  });
+  var enWords = {};
+  words.forEach(function(word) {
+    if (!enWords[word[1]]) {
+      enWords[word[1]] = [];
+    }
+    enWords[word[1]].push(word[0]);
+  });
+  enPos = enPos.join('|');
+
+  var jaPos = enConverter[enPos];
+
+  if (!jaPos) {
+    console.log('No sentence with a similar POS structure found for: %s (%s)', source, enPos);
+    return;
+  }
+
+  console.log(enPos);
+  console.log(jaPos.ja);
+
+  // Find the most frequent POS structure in JA associated with that in EN.
+  var pos = '';
+  var value = -1;
+  for (var i in jaPos.ja) {
+    if (jaPos.ja[i] > value) {
+      pos = i;
+      value = jaPos.ja[i];
+    }
+  }
+  jaPos = pos;
+
+  var commons = jaConverter[jaPos].commons;
+
+  console.log(enPos);
+  console.log(jaPos);
+
+  enPos = enPos.split('|');
+  jaPos = jaPos.split('|');
+
+  var ja = jaPos.map(function(pos, index) {
+    var translated = pos;
+    posItems.some(function(posItem) {
+      if (pos === posItem) {
+        var wordIndex = enPos.indexOf(pos);
+        if (wordIndex < 0) {
+          return false;
+        }
+
+        // We're translating the POS in the original order. Ex if source has 2 NN, they will be
+        // translated in the same order: NN1, then NN2.
+        var enWord = enWords[pos].splice(0, 1).join();
+
+        if (!enDico[enWord.toLowerCase()]) {
+          return false;
+        }
+        var jaWord = enDico[enWord.toLowerCase()][pos];
+
+        var value = -1;
+        for (var i in jaWord) {
+          if (jaWord[i] > value) {
+            translated = i;
+            value = jaWord[i];
+          }
+        }
+
+        return true;
+      }
+      return false;
+    });
+
+    // Find the most frequent commons for this POS at this position.
+    if (translated === pos) {
+      var value = -1;
+      for (var i in commons[index]) {
+        if (commons[index][i] > value) {
+          translated = i;
+          value = commons[index][i];
+        }
+      }
+
+    }
+
+    return translated;
+  });
+
+  ja = ja.join('');
+  return ja;
+}
+</script>
+</body>
+</html>
