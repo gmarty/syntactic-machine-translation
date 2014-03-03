@@ -8,10 +8,7 @@
 
 var fs = require('fs');
 var pos = require('pos');
-var TreebankWordTokenizer = require('natural').TreebankWordTokenizer;
-var normalizer = require('natural').normalize.normalize_tokens;
 
-var tokenizer = new TreebankWordTokenizer();
 var jsposTable = require('./utils/jspos2simplified-map.json');
 var corpus = '' + fs.readFileSync('./corpus/en.txt', {encoding: 'utf8'});
 
@@ -22,12 +19,9 @@ corpus = corpus.split('\r\n');
 corpus = corpus.map(function(sentence) {
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
   //sentence = sentence.replace(/(\.|;|,|:)+$/, ''); // Remove punctuation.
-  var words = tokenizer.tokenize(sentence);
-  words = normalizer(words);
-  words = words.join(' ').replace(/\s+/g, ' ');
+  sentence = new pos.Lexer().lex(sentence);
+  var taggedWords = new pos.Tagger().tag(sentence);
 
-  words = new pos.Lexer().lex(words);
-  var taggedWords = new pos.Tagger().tag(words);
   taggedWords = taggedWords.map(function(word) {
     if (jsposTable[word[1]]) {
       word[1] = jsposTable[word[1]];

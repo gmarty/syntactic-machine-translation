@@ -15,10 +15,7 @@
 
 var fs = require('fs');
 var pos = require('pos');
-var TreebankWordTokenizer = require('natural').TreebankWordTokenizer;
-var normalizer = require('natural').normalize.normalize_tokens;
 
-var tokenizer = new TreebankWordTokenizer();
 var table = require('./utils/chasen2jspos-map.json');
 var jsposTable = require('./utils/jspos2simplified-map.json');
 
@@ -65,16 +62,12 @@ enCorpus = enCorpus.split('\r\n');
 enCorpus.map(function(sentence) {
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
   //sentence = sentence.replace(/(\.|;|,|:)+$/, ''); // Remove punctuation.
-  var words = tokenizer.tokenize(sentence);
-  words = normalizer(words);
-  words = words.join(' ').replace(/\s+/g, ' ');
-
-  words = new pos.Lexer().lex(words);
-  sentence = new pos.Tagger().tag(words);
+  sentence = new pos.Lexer().lex(sentence);
+  var taggedWords = new pos.Tagger().tag(sentence);
 
   // Group words by their POS type.
   var obj = {};
-  sentence.forEach(function(word) {
+  taggedWords.forEach(function(word) {
     if (jsposTable[word[1]]) {
       word[1] = jsposTable[word[1]];
     }
