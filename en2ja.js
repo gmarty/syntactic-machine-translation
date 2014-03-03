@@ -22,6 +22,7 @@ translate(source);
 function translate(source) {
   var sentence = source;
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
+  //sentence = sentence.replace(/(\.|;|,|:)+$/, ''); // Remove punctuation.
   var words = new Pos.Lexer().lex(sentence);
   words = new Pos.Tagger().tag(words);
   var enPos = words.map(function(word) {

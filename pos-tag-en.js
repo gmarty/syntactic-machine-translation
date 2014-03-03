@@ -21,6 +21,7 @@ var enPosString = '';
 corpus = corpus.split('\r\n');
 corpus = corpus.map(function(sentence) {
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
+  //sentence = sentence.replace(/(\.|;|,|:)+$/, ''); // Remove punctuation.
   var words = tokenizer.tokenize(sentence);
   words = normalizer(words);
   words = words.join(' ').replace(/\s+/g, ' ');

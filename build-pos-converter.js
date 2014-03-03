@@ -31,8 +31,9 @@ var jaConverterString = '';
 var enConverterString = '';
 
 var sentence = ''; // Temporary variable.
+var length = Math.min(jaPos.length, enPos.length);
 
-for (var i = 0; i < jaPos.length; i++) {
+for (var i = 0; i < length; i++) {
   // Expand the Japanese POS converter.
   if (!jaConverter[jaPos[i]]) {
     jaConverter[jaPos[i]] = {
@@ -76,6 +77,7 @@ for (var i = 0; i < jaPos.length; i++) {
   // Add English commons to the list.
   sentence = enCorpus[i];
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
+  //sentence = sentence.replace(/(\.|;|,|:)+$/, ''); // Remove punctuation.
   sentence = new pos.Lexer().lex(sentence);
   sentence.forEach(function(word, index) {
     if (!enConverter[enPos[i]]['commons'][index]) {

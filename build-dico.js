@@ -64,6 +64,7 @@ var enPos = [];
 enCorpus = enCorpus.split('\r\n');
 enCorpus.map(function(sentence) {
   sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
+  //sentence = sentence.replace(/(\.|;|,|:)+$/, ''); // Remove punctuation.
   var words = tokenizer.tokenize(sentence);
   words = normalizer(words);
   words = words.join(' ').replace(/\s+/g, ' ');
@@ -104,7 +105,7 @@ var enDico = {};
 for (var i = 0; i < jaPos.length; i++) {
   // For each posItem, find a sentence where it is only one in each pair.
   posItems.forEach(function(posItem) {
-    if (jaPos[i][posItem] && enPos[i][posItem] && jaPos[i][posItem].length === 1 && enPos[i][posItem].length === 1) {
+    if (jaPos[i] && jaPos[i][posItem] && enPos[i] && enPos[i][posItem] && jaPos[i][posItem].length === 1 && enPos[i][posItem].length === 1) {
       var key = jaPos[i][posItem][0].toLowerCase();
       if (!jaDico[key]) {
         jaDico[key] = {};
@@ -158,7 +159,7 @@ function secondpass() {
 
       jaPos[i][posItem].forEach(function(word, index) {
         // Let's see if we can match one of these pos item in both languages.
-        if (!enPos[i][posItem]) {
+        if (!enPos[i] || !enPos[i][posItem]) {
           return;
         }
 
