@@ -17,5 +17,6 @@ jaCorpus = jaCorpus.split('\r\n');
 jaCorpus = jaCorpus.map(function(sentence) {
   return jaNormalize(sentence);
 });
+jaCorpus = jaCorpus.join('\r\n');
 
 fs.writeFileSync('./corpus/ja.txt', jaCorpus, {encoding: 'utf8'});
