@@ -1,7 +1,9 @@
 # Hacking a quick and dirty syntactic machine translation
 
 > The goal of this project is to hack a quick and dirty machine translation for English and
-> Japanese that uses syntax only.
+> Japanese that is based on syntax only.
+
+Try online the [machine translation engine](http://gmarty.github.io/syntactic-machine-translation/).
 
 ## What's interesting about this approach?
 
