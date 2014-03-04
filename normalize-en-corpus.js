@@ -9,7 +9,7 @@
 var fs = require('fs');
 var enNormalize = require('./utils/en-normalizer.js');
 
-var enCorpus = '' + fs.readFileSync('./corpus/en.txt', {encoding: 'utf8'});
+var enCorpus = '' + fs.readFileSync('./corpus/en-original.txt', {encoding: 'utf8'});
 
 enCorpus = enCorpus.split('\r\n');
 enCorpus = enCorpus.map(function(sentence) {
