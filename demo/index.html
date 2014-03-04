@@ -154,31 +154,43 @@ function translate(source) {
   }
   jaPos = pos;
 
-  var commons = jaConverter[jaPos].commons;
-
-  console.log(enPos);
-  console.log(jaPos);
+  var placeholders = jaConverter[jaPos].p;
 
   enPos = enPos.split('|');
   jaPos = jaPos.split('|');
 
-  var ja = jaPos.map(function(pos, index) {
-    var translated = pos;
+  var placeholder = '';
+  value = 0;
+  for (var i in placeholders) {
+    if (placeholders[i] > value) {
+      placeholder = i;
+      value = placeholders[i];
+    }
+  }
+
+  placeholder = placeholder.split('|');
+
+  console.log(enPos);
+  console.log(jaPos);
+  console.log(placeholder);
+
+  var ja = placeholder.map(function(placeholderWord, index) {
+    var translated = placeholderWord;
     posItems.some(function(posItem) {
-      if (pos === posItem) {
-        var wordIndex = enPos.indexOf(pos);
+      if (jaPos[index] === posItem) {
+        var wordIndex = enPos.indexOf(jaPos[index]);
         if (wordIndex < 0) {
           return false;
         }
 
         // We're translating the POS in the original order. Ex if source has 2 NN, they will be
         // translated in the same order: NN1, then NN2.
-        var enWord = enWords[pos].splice(0, 1).join();
+        var enWord = enWords[jaPos[index]].splice(0, 1).join();
 
         if (!enDico[enWord.toLowerCase()]) {
           return false;
         }
-        var jaWord = enDico[enWord.toLowerCase()][pos];
+        var jaWord = enDico[enWord.toLowerCase()][jaPos[index]];
 
         var value = -1;
         for (var i in jaWord) {
@@ -192,18 +204,6 @@ function translate(source) {
       }
       return false;
     });
-
-    // Find the most frequent commons for this POS at this position.
-    if (translated === pos) {
-      var value = -1;
-      for (var i in commons[index]) {
-        if (commons[index][i] > value) {
-          translated = i;
-          value = commons[index][i];
-        }
-      }
-
-    }
 
     return translated;
   });
