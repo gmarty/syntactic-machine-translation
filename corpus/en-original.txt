@@ -123,7 +123,7 @@ Chop it into fine pieces.
 Yesterday, 4 people reported the awards to Mayor Yamada.
 He posted on a message board.
 He gave her a morning kiss on her lips.
-He studied English with me/them.
+He studied English with me.
 A one-armed athlete played.
 The focus is centered on the Edo period.
 A third are based on real stories.
@@ -143,7 +143,7 @@ He conducted an experiment.
 He holds those kinds of views.
 I made a different choice from that.
 Everyone in the class evaluated it well.
-Small and mid-sized companies invest in the continent/mainland. 
+Small and mid-sized companies invest in the continent. 
 He put it like that.
 I made a mistake.
 Yamada and Sato practice singing together.
@@ -267,7 +267,7 @@ There are many actual achievements in the development of business systems.
 I want to ask all of you two questions. 
 There is no limit on quantity.
 He told me clearly what he intended to do.
-Mr./Ms. Yamada sounded relieved to tell me.
+Mr. Yamada sounded relieved to tell me.
 Shops that make their own noodles are said to account for 80% of shops.
 He talks about what happened five years ago.
 He doesn't speak nonsense.
@@ -275,7 +275,7 @@ Yamada and Sato said it at the same time.
 What are those guys saying now?
 He says words of thanks once every day.
 He says I am very modernized.
-Mr./Ms. Yamada half muttered it.
+Ms. Yamada half muttered it.
 Dropouts are those who have been a part for less than fifteen years and are under the age of 60.
 Experience really does make the difference.
 He clearly tells his teacher and friends about his own opinions.
@@ -290,7 +290,7 @@ We perform all the related business besides this.
 We actively support work in other regions.
 We provide information on infectious diseases and medical treatment to medical practitioners.
 We provide daily life assistance for those who need it.
-He made old-fashioned toys with me/them.
+He made old-fashioned toys with them.
 He continuously improves the blog system.
 He delivered an 18-minute speech on the subject
 The professor gave a keynote speech on this theme.
@@ -375,7 +375,7 @@ He looks at much older pictures.
 He watched an old video that he hadn't seen in a long time. 
 Last night, he dreamed about something he hadn't dreamed about in a long time. 
 He is always daydreaming.
-He watches TV with me/them.
+He watches TV with me.
 He rarely watches anything that's not public TV.
 The child stares at my face.
 He looked at the sleeping face of the child.
@@ -452,13 +452,13 @@ It's easy to use.
 It is very convenient for me.
 At any rate, the song is good.
 The scenery is very beautiful.
-He/She is really clever.
+He is really clever.
 Most of them are nice.
 Most of the children were nice.
 Sure enough, we have a lot of female customers.
 There are many situations like that.
 There are a lot of really nice bags.
-He/She had very thick hair.
+She had very thick hair.
 There are many children.
 There are many tender songs.
 There are many British enterprises among large logistics companies in Europe.
@@ -610,13 +610,13 @@ Various opinions will be heard.
 My fever jumped up to almost 40 degrees Celsius.
 The trend towards higher prices has started up again.
 The flavor will fully come out.
-He went/came out the ticket gate at the local railway station on his way home.
+He went out the ticket gate at the local railway station on his way home.
 I can't afford it.
 Not all of them have germinated yet.
 I'm motivated.
 I'm getting a directory access error.
 You will be required to do so.
-He/She doesn't show his/her emotions very much.
+He doesn't show his emotions very much.
 An atmosphere has been created. 
 The possibility has been raised.
 One book has been already published.
@@ -630,7 +630,7 @@ There was a similar scene in the movie.
 There are a lot of things that are blasts from the past.
 Someone quickly answered the phone.
 He went walking around town for the first time in a while.
-A tired look crosses my/his/her face.
+A tired look crosses my face.
 It will have an effect in unexpected ways.
 If the timing is wrong, there won't be any increase in speed.
 It grows in popularity.
@@ -640,13 +640,13 @@ Patients are given medical attention by doctors in the hospital.
 You need to get permission from the mayor before doing any advertising.
 That has been recognized by the minister.
 He got the permission from the mayor beforehand.
-He was instructed by Mr./Ms. Yamada.
+He was instructed by Mr. Yamada.
 They go to school for 12 months to become athletes.
 That has been influenced by things like Mediterranean culture.
 The brain cells will be injured.
 I was personally very shocked.
 I got a Japanese impression.
-He receives an explanation of the curriculum from Mr./Ms. Yamada.
+He receives an explanation of the curriculum from Ms. Yamada.
 I received a report that the public vehicle priority system had started.
 First, he is commissioned by the company.
 Many people ask me the same question.
@@ -711,7 +711,7 @@ I'm wiped out.
 I don't have anything on hand which can be used for materials.
 There is no information on the website.
 There is no contact between the three parties.
-She/He sounded down.
+She sounded down.
 I don't know anything about that.
 I didn't have any particular preconceived notions in the first place.
 The store is out of stock.
@@ -902,7 +902,7 @@ The parents and I give the children a bath.
 Put the divided files and rez file in the same folder.
 He put items into the shopping cart.
 That is clear at a glance.
-I know Mr./Ms. Yamada's contact information.
+I know Mr. Yamada's contact information.
 I don't know the telephone number of the other party.
 I didn't understand the meaning at all.
 I can definitely tell a difference in the taste.
@@ -964,7 +964,7 @@ I will tell you about the winter event.
 There are about 5 people who are over 75 among them.
 There are few tourists.
 Our homeroom teacher was there before we knew it.
-One of my/his/her classmates in the club after school was a bully.
+One of his classmates in the club after school was a bully.
 One of my friends was saying the same thing.
 I have two children.
 The people who rented the house before us were still there.
@@ -1064,7 +1064,7 @@ Every time he takes a break, he eats something.
 It mainly eats the fruit off trees,
 Most of the people had lunch in the restaurant nearby.
 He rarely eats that kind of food.
-It doesn't eat that feed/food very much.
+It doesn't eat that food very much.
 Everyone had hot pot for supper.
 He eats more than 2 eggs each day.
 Now I write two days' worth of diary entries like this.
@@ -1088,7 +1088,7 @@ You should take full control of your own health care.
 An owner should know everything about pet food.
 He is fully acquiring scholastic abilities and proficiency.
 He hasn't gotten started on it yet.
-Mr./Ms. Yamada lights up a cigarette again.
+Ms. Yamada lights up a cigarette again.
 It produces a purple flower at the tip of each stem.
 He named the child.
 At first, we took the lead in the competition with the design.
@@ -1098,7 +1098,7 @@ A persimmon tree produces a lot of fruit.
 Thicken the broth with starch.
 He immediately turns on the TV.
 We fixed our eyes on that point.
-He/She is immaculately dressed.
+He is immaculately dressed.
 Our company offers the following services to customers.
 Our company provides high-quality products.
 For the review, our company is providing information to all parties concerned.
@@ -1127,7 +1127,7 @@ I will take a one-year leave until next spring.
 We got permission from the sender to post the e-mail on the website.
 I was offered a job.
 I received the message.
-I/We will have dinner with him/her/them.
+We will have dinner with them.
 It took a lot of time to get there.
 If you would like more, it will cost an extra 3,000 yen.
 There is a 160 yen service charge for transfers.
@@ -1155,7 +1155,7 @@ Lectures are the basis for how teachers give their lessons.
 We advance the understanding of the structure of landslides.
 The man said something to the person.
 He puts a collar on the dog.
-He/She calls out to people easily.
+She calls out to people easily.
 We deeply apologize for the inconvenience.
 He shows mercy to them.
 I'm sorry I caused everyone so much trouble.
@@ -1163,7 +1163,7 @@ He took a lot of time before answering the question.
 He immediately dialed that number.
 He puts the mobile phone around his neck.
 It doesn't hurt your skin.
-Someone placed a hand gently on Mr./Ms. Yamada's shoulder.
+Someone placed a hand gently on Ms. Yamada's shoulder.
 He was wearing glasses.
 He hones his work and skills.
 The maid put a lot of tomato sauce on the bread.
@@ -1194,7 +1194,7 @@ He will never try that.
 The sun is finally coming out.
 He worked desperately.
 I can't help making a sound.
-He played the music with me/them.
+He played the music with me.
 He gives directions to his subordinates.
 He sends a letter of thanks to people in the partnering companies.
 He quickly came to a conclusion.
@@ -1250,7 +1250,7 @@ We will analyze the data.
 We offer a flat fee service.
 He went to the hospital soon after that.
 He went to a Chinese restaurant for the first time.
-I also went to massage school with him/her/them.
+I also went to massage school with her.
 He went to Tokyo on a sudden business trip.
 He went abroad for the first time the other day.
 I went to school with Yamada.
@@ -1292,7 +1292,7 @@ I got results just like my seniors said.
 Let's check where you are on the map.
 He will check the stock and price.
 He will verify all of the movements.
-Mr./Ms. Yamada will go back to his/her room once.
+Mr. Yamada will go back to her room once.
 He immediately returned to home.
 The weight comes back very quickly.
 I gain weight back really quickly.
@@ -1310,7 +1310,7 @@ It immediately goes back to its original state.
 It went back to level 5 again.
 The next morning, he went back to Tokyo again.
 The screen will go back to normal.
-They temporarily went back to their own room/rooms.
+They temporarily went back to their own rooms.
 I went back to the original place again.
 The home became quiet again.
 The authors hold regular seminars in various regions.
@@ -1443,10 +1443,10 @@ I bought one of them.
 He will mail order it.
 He bought himself clothes for the first time in a long time.
 Finally he bought a computer.
-Mr./Ms. Yamada bought a car for the first time.
+Ms. Yamada bought a car for the first time.
 He will buy a souvenir.
 I'm going to get this as a souvenir.
-He bought a watch/clock.
+He bought a clock.
 He bought a house in the suburbs.
 I buy food for my eldest son and me at the convenience store on my way home.
 I received an e-mail like this from a man.
@@ -1551,7 +1551,7 @@ After the credit card transaction, it will be delivered within around 2 weeks.
 A postcard was delivered to his house this morning.
 You will definitely receive a phone call or e-mail in a few days.
 Right after that, an invitation mail will be sent to the other person.
-Suddenly, I heard Mr./Ms. Yamada's voice.
+Suddenly, I heard Ms. Yamada's voice.
 There are only two more hours before the new year finally starts.
 It has been six months as of today. 
 The Kyoto Subway will mark its 90th anniversary on the 14th.
@@ -1574,7 +1574,7 @@ It was absolutely useless.
 The data is not very reliable.
 I don't have the words.
 I won't be able to get any work done the next day.
-He/She will never become a good person.
+He will never become a good person.
 After the investigation, the expressway construction will get started.
 Finally, educational activities for next fiscal year will start from tomorrow.
 Farming this year will finally begin.
@@ -1646,7 +1646,7 @@ There were more and more regular customers.
 I made more friends before I knew it.
 The amount of alcohol continually increases.
 I gained 10 kilograms in a year when I stopped smoking a few years ago.
-There amount of stuff in the/my room just keeps piling up.
+There amount of stuff in my room just keeps piling up.
 The chances to come into contact with natural English increased significantly.
 More companies are adopting it every year.
 The number of people increases year by year.
@@ -1674,9 +1674,9 @@ Power off the computer.
 I got my hair chopped off at the beauty shop.
 Cut the camembert cheese and the vegetables into the desired size.
 Cut it in half again.
-It finally started just the way I/you/we wanted.
+It finally started just the way I wanted.
 Completely dry it off.
-If I/we call him, he hangs up immediately.
+If we call him, he hangs up immediately.
 There are less than 10 days until the day.
 Cut each vegetable into bite-size chunks.
 Cut the celery and processed cheese into 1cm cubes.
@@ -1794,7 +1794,7 @@ That accounted for 45.4% of the total.
 Those who passed the national exam account for more than 60% of the total.
 The six accounted for two thirds of the total.
 He asks for an explanation.
-If he/she is unconscious, ask other people for assistance.
+If she is unconscious, ask other people for assistance.
 He immediately appeals to people nearby for assistance.
 What do customers want?
 He asks Councilor Yamada to explain the reason of the motion.
@@ -1898,7 +1898,7 @@ When storing it, be careful not to expose it to intense light.
 It's impossible to give one child three names.
 The Jacaranda blossomed with beautiful purple flowers.
 He turned his back on me again.
-Mr./Mrs. Yamada turned his/her eyes to her again.
+Mrs. Yamada turned her eyes to her again.
 We strive for the creation of a ubiquitous network society.
 It will produce more effect.
 That exerts great power.
@@ -1913,7 +1913,7 @@ Everyone took part in the community events.
 People always find a space for themselves somewhere.
 We will set up the following committees:
 He kept away from that for a while.
-His/Her eyes immediately lit up.
+His eyes immediately lit up.
 The atmosphere of the room changes a lot.
 The contents of work changed drastically.
 It was already tomorrow when I went to bed.
@@ -1983,7 +1983,7 @@ Click the image to see the enlarged image.
 Both are showing an increasing trend.
 There has been little change in the situation.
 I seldom saw the children.
-You can see how it/he/she is doing now with the camera.
+You can see how she is doing now with the camera.
 You can watch videos for free.
 You can see everything with your own eyes.
 Answer 24 questions.
@@ -2071,7 +2071,7 @@ The sea spread before my eyes.
 There are more choices than ever before.
 Now, the circle has grown all over the country.
 The waves of exchange are growing.
-He prays with all his heart for him/her/them to rest in peace.
+He prays with all his heart for them to rest in peace.
 At the end, he wishes everyone success in their endeavors.
 He sincerely prays not only for himself but also for the world peace.
 The way Yamada plays and how he smiles always cheers him up.
@@ -2097,12 +2097,12 @@ He found the following report by accident.
 He finally found is soul mate.
 He finally found a store he likes.
 He finally found the target.
-Mr./Mrs. Yamada manages to find his/her own way of doing things.
+Mr. Yamada manages to find his own way of doing things.
 He found a place he liked soon.
 Let's find a good real estate agent around Kyoto.
 One day, he found a book in a bookstore.
 When it's like this, my eyes are inevitably drawn to the lining.
-He went to a movie with me/them.
+He went to a movie with me.
 She always wears clothes the same color as that season's flowers. 
 Whenever she attends a ceremony, she wears a kimono that fits that season.
 He always dresses in all-black suits.
@@ -2121,17 +2121,17 @@ Those who live in this country have various ways of thinking.
 Those people slowly walk along the river bank.
 He slowly walks along the coast or in the forest.
 He wanders along the streets at night.
-He walked around the street with me/them.
-He enjoys the music with me/them.
-He enjoys playing survival games in the mountain with me/them.
+He walked around the street with them.
+He enjoys the music with me.
+He enjoys playing survival games in the mountain with them.
 He will fully enjoy the short summer.
-He enjoys the on-line life he has with me/them.
-Men enjoy cooking with me/them.
+He enjoys the on-line life he has with me.
+Men enjoy cooking with them.
 Many people enjoyed the smells of spring.
 He savored his drink.
 He enjoys the scenery outside.
 The couples leisurely enjoy the food and conversation.
-He enjoys cooking with me/them.
+He enjoys cooking with me.
 He adds just enough water to cover it.
 Needless to say, no sugar is added to the fresh cream.
 He did more research into that way of doing it.
@@ -2237,11 +2237,11 @@ He ran the usual course twice.
 He didn't see that many people.
 He will see his homeroom teacher for the first time in a while.
 However, children become the victims of crime.
-My/his/her/their son was in a motorcycle accident last September.
+My son was in a motorcycle accident last September.
 I met so many people.
 What did I do to deserve this?
 See you in the evening.
-He/She gently reached a hand towards my cheek.
+He gently reached a hand towards my cheek.
 He sometimes goes to Kyoto.
 The sales volume has been increasing steadily.
 Play, in the true sense of the word, develop children's ability.
@@ -2301,7 +2301,7 @@ We conducted movements day and night in various regions.
 We do wholesale business and develop IP telephone service.
 Our company was operating more than 50 stores across the country as of 1982.
 The North Korean nuclear issues catch the world's attention.
-It's bathed in light with me/them.
+It's bathed in light with them.
 Just my family's tent got drenched in sunlight.
 Their extraordinary performance won applause from the audience.
 At the same time, it will achieve cost reduction.
@@ -2310,7 +2310,7 @@ That achieves performance at RTL level.
 Let's make our dreams come together.
 We prepare a system for collecting information so that we can clarify responsibilities in the event of a crime.
 It will achieve the perfect body.
-He climbs up the rainbow bridge with me/them.
+He climbs up the rainbow bridge with me.
 He will cross the 100 meter or so bridge.
 It can be used for a long time.
 The contestants cross the sea.
@@ -2756,7 +2756,7 @@ Our staff will contact you for confirmation on the next business day.
 You must not allow your wife and children to feel like that.
 He injured someone while playing sports.
 I refer to websites created by experienced people when designing.
-It motivates him/her.
+It motivates her.
 It makes me feel like this.
 He was born in 1944 in Tokyo, Japan.
 Meanwhile, Japan scored the long-awaited first goal.
@@ -3090,7 +3090,7 @@ Someone taps my shoulder gently.
 He rapped himself on the head.
 He is calling on Mr. Yamada in Kyoto.
 The man clapped without thinking.
-He played the drums at the riverside with me/them.
+He played the drums at the riverside with them.
 This service employs 128 bit SSL.
 It basically employs the 3-4-3 system.
 This product comes with a high-definition panel.
@@ -3354,7 +3354,7 @@ Now, another CD has been released.
 Finally, the DVD will go on sale on the 8th.
 It will provide two functions to this.
 It will allow a little more room for the space.
-After that, I couldn't get in touch with him/her at all.
+After that, I couldn't get in touch with her at all.
 Children used to have a very well-balanced diet.
 I still haven't recovered from how hot it was this summer.
 Courage will save many people.
@@ -3601,7 +3601,7 @@ They sent three instructors to the in-school workshop.
 Japanese government finally dispatched the SDF to Iraq.
 A six-meter wide road lies between them. 
 I couldn't help butting in.
-The child got his/her finger caught in the door.
+The child got his finger caught in the door.
 It also improves my ability.
 It improved the stapler performance output time.
 He always learns the latest technology.
@@ -3829,7 +3829,7 @@ It is fully-functional for up to forty-five days or twenty uses.
 You can use hot water right away.
 He stir-fries the cabbage and onion slowly in butter.
 He stir fries some cabbage and garlic over low heat.
-He slowly sits down next to me/them.
+He slowly sits down next to me.
 He firmly rooted himself in this land.
 The conflict between the women was fought behind the scenes.
 144 heated matches will take place across the country.
@@ -3843,7 +3843,7 @@ Don't recommend something you don't actually have.
 Many people are wearing traditional Indonesian garments.
 So far, information including the story and the release date has been released.
 They enjoyed chatting about being back in junior high school for a while.
-We/They enjoy chatting about everyday topics.
+We enjoy chatting about everyday topics.
 He will access a site with unexpurgated videos of cute girls.
 His words explained everything that happened that day.
 In July, Shiretoko was listed on the UNESCO World Heritage list.
@@ -4015,7 +4015,7 @@ It is against the separation of church and state.
 He will certainly face many problems.
 The health insurance system is on the brink of total collapse.
 I'm always impressed by the author's wealth of the ideas.
-He grinned his head off at how cute it/she/he was.
+He grinned his head off at how cute it was.
 I'm finally leaving Japan on the 24th.
 It's presumed to be used quite effectively.
 Taro Yamada qualified for the men's 20km race-walk.
@@ -4044,7 +4044,7 @@ Our school accepted many overseas students from dozens of countries.
 The employees demand better working conditions.
 The knowledge is almost 0.
 The horse's mane is almost black.
-We all celebrated his/her first birthday with food and cake.
+We all celebrated her first birthday with food and cake.
 We all celebrated Buddha's birth.
 The software infringed on the third party's rights.
 I drag everyone else down.
@@ -4093,7 +4093,7 @@ Carelessness is the reason.
 Anger is the reason.
 You can buy discount air tickets at the lowest price.
 He called the apartment management company.
-I get mad every time I see his/her face.
+I get mad every time I see his face.
 You caught 10 fish from the sea.
 It announced a policy to reduce or abolish them across the board.
 He mixes all the ingredients in a bowl.
@@ -4113,7 +4113,7 @@ The opinion which says it's desirable that it will be enacted as proposed has be
 He died at the age of 84.
 The local government enacts children's rights ordinances.
 He went down the hill in front of her house.
-I/You can listen carefully to what others say.
+You can listen carefully to what others say.
 Listen carefully to what other people say.
 He got lost.
 I oppose changes that may worsen the Fundamental Law of Education.
@@ -4149,7 +4149,7 @@ The active ingredients relieve muscle tension.
 He is applying the optical switch connection technology and other technology to this system.
 It stimulates a child's curiosity.
 He couldn't help the tears pouring out.
-Its/His/Her profile is beautiful.
+Her profile is beautiful.
 Lots of information can be displayed on the screen.
 The information is updated daily.
 Our school has received a lot of assistance in our educational activities.
@@ -4257,7 +4257,7 @@ I get hungry again soon after eating.
 It hydrates the skin well.
 I had a hard time deciding on it.
 The scientific information is available to everyone.
-A lot of people were gathered around Mr./Mrs. Yamada.
+A lot of people were gathered around Mrs. Yamada.
 There was a lot of interest.
 He took six different medicines at the same time.
 A show about what bodyguards do was on TV today.
@@ -4304,7 +4304,7 @@ So far, 25,000 videos have been posted here.
 The committee summarized the survey results.
 A subsection chief manages the affairs of the section.
 If you wish, you can change your browser settings.
-Eventually, my/his/her/their gaze focused on the edge of the bill.
+Eventually, his gaze focused on the edge of the bill.
 It looks like the Tokyo Bay distribution wars are starting to heat up.
 Members from the cleaning industry will get together.
 I'll have a second bowl of ramen at a noodle shop.
@@ -4313,7 +4313,7 @@ A confirmation e-mail will be sent automatically to your e-mail address.
 I can't drink any alcohol at all.
 Seventeen booths were set up at the venue.
 The leaves are blowing in the wind.
-I'll have the last dance with you/him/her.
+I'll have the last dance with you.
 He always offers his seat to the elderly.
 The waste and toxins will be eliminated from the body.
 The administrator can request the user submit materials.
@@ -4545,7 +4545,7 @@ Permits of Use shall be revoked in the following cases:
 Peel the sticker on the back off.
 I lose faith in myself.
 The public safety commission can order a partial or total suspension.
-He/She seems to be struggling with his/her own existence.
+She seems to be struggling with her own existence.
 He bounces back quickly.
 Many hospitals host events for Nurses Day.
 I was crying every single night.
@@ -4589,7 +4589,7 @@ It's just more than I can handle.
 I'm much better at it.
 This design is especially popular among women.
 He slowly counts.
-I suddenly got worried about what he/she was going to do.
+I suddenly got worried about what he was going to do.
 He always flashes his sweetest smile at people.
 I found this site by accident.
 He raises funds in yen, which has low interest rate.
@@ -4660,7 +4660,7 @@ I put a handwritten poster up on the bulletin board.
 The carrier fits around them snugly.
 He learned how to do massages from a teacher.
 He will create a plan for the second half.
-I sometimes hear about his/her wartime experiences.
+I sometimes hear about his wartime experiences.
 The university subsidizes part of the conference presentation costs.
 He always serves customers with smile.
 It really makes people happy.
@@ -4724,7 +4724,7 @@ I hope to participate in the bidding.
 We did away with the lump-sum payment system itself.
 I felt so small.
 The 100 people fully enjoyed the summer evening.
-On the day of the game, he will watch it with me/them.
+On the day of the game, he will watch it with them.
 Then he made the terminal equipment, shown in figure 78, on the terminal member.
 The user edits two files.
 People with low morals put their own heads in the noose.
