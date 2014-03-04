@@ -10,14 +10,18 @@
 
 var fs = require('fs');
 var jaNormalize = require('natural').normalize_ja;
+var jaNormalizeVerbs = require('./utils/ja-normalizer.js');
 
 var jaCorpus = '' + fs.readFileSync('./corpus/ja-utf8.txt', {encoding: 'utf8'});
 
-jaCorpus = jaCorpus.split('\r\n');
+jaCorpus = jaCorpus.split('\n');
 jaCorpus = jaCorpus.map(function(sentence) {
+  sentence = sentence.trim();
   sentence = jaNormalize(sentence);
+  //sentence = jaNormalizeVerbs(sentence);
   return sentence;
 });
 jaCorpus = jaCorpus.join('\r\n');
+jaCorpus = jaCorpus.trim();
 
 fs.writeFileSync('./corpus/ja.txt', jaCorpus, {encoding: 'utf8'});
