@@ -12,7 +12,7 @@ var jaConverter = require('./pos-converter/ja.json');
 var enDico = require('./dictionary/en.json');
 
 // The POS common to both Chasen and js-pos.
-var posItems = ["UH", "RB", "JJ", "NN", "NNP", "CD", "SYM", ".", ":", "(", ")", "VB", "CC"];
+var posItems = require('./utils/common-pos-map.json');
 
 var source = 'The weather is bad.';
 var source = 'It contains a lot of fiber.';

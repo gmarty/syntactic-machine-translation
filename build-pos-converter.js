@@ -26,7 +26,7 @@ var jaPos = require('./corpus-tagged/ja.json');
 var enPos = require('./corpus-tagged/en.json');
 
 // The POS common to both Chasen and js-pos.
-var posItems = ["UH", "RB", "JJ", "NN", "NNP", "CD", "SYM", ".", ":", "(", ")", "VB", "CC"];
+var posItems = require('./utils/common-pos-map.json');
 
 var lexer = new pos.Lexer();
 

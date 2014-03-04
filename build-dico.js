@@ -23,7 +23,7 @@ var enCorpus = '' + fs.readFileSync('./corpus/en.txt', {encoding: 'utf8'});
 var jaPos = '' + fs.readFileSync('./dictionary/ja.txt', {encoding: 'utf8'});
 
 // The POS common to both Chasen and js-pos.
-var posItems = ["UH", "RB", "JJ", "NN", "NNP", "CD", "SYM", ".", ":", "(", ")", "VB", "CC"];
+var posItems = require('./utils/common-pos-map.json');
 
 // Convert the POS items from Chasen to js-pos.
 jaPos = jaPos.split('\r\nEOS\r\n');
