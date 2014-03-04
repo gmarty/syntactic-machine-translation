@@ -4,22 +4,13 @@
 
 /**
  * Build a map for POS tagged structure of a language to another.
- *
- * Tag the JA corpus:
- * ```bash
- * "C:\Program Files (x86)\ChaSen\chasen.exe" -F "%m|" C:\Users\FCHGMX\Dropbox\Dev\www\js-demo\machine-translation\corpus\ja.txt > C:\Users\FCHGMX\Dropbox\Dev\www\js-demo\machine-translation\corpus\ja-segmented.txt
- * ```
- *
- * Convert `corpus\ja-segmented.txt` to UTF-8.
- *
- * Run `convert-chasen-pos.js` and `pos-tag-en.js` beforehand.
  */
 
 var fs = require('fs');
 var pos = require('pos');
 var _ = require('lodash');
 
-var jaCorpus = ('' + fs.readFileSync('./corpus/ja-segmented.txt', {encoding: 'utf8'})).split('\r\n');
+var jaCorpus = '' + fs.readFileSync('./corpus-tagged/ja-raw.txt', {encoding: 'utf8'});
 var enCorpus = ('' + fs.readFileSync('./corpus/en.txt', {encoding: 'utf8'})).split('\r\n');
 
 var jaPos = require('./corpus-tagged/ja.json');
@@ -32,6 +23,18 @@ var lexer = new pos.Lexer();
 
 var jaConverter = {};
 var enConverter = {};
+
+// Generate the list of tokenized term from the Japanese corpus.
+jaCorpus = jaCorpus.split('\r\nEOS\r\n');
+jaCorpus = jaCorpus.map(function(sentence) {
+  sentence = sentence.split('\r\n');
+  sentence = sentence.map(function(word) {
+    word = word.split('|');
+    return word[1];
+  });
+
+  return sentence.join('|');
+});
 
 var sentence = ''; // Temporary variable.
 var length = Math.min(jaPos.length, enPos.length);
@@ -52,7 +55,6 @@ for (var i = 0; i < length; i++) {
   jaConverter[jaPos[i]]['en'][enPos[i]]++;
   // Add Japanese commons to the list.
   sentence = jaCorpus[i];
-  sentence = sentence.replace(/\|$/, ''); // Remove the trailing pipe.
   var words = sentence.split('|');
   words.forEach(function(word, index) {
     if (!jaConverter[jaPos[i]]['commons'][index]) {
@@ -80,7 +82,7 @@ for (var i = 0; i < length; i++) {
   enConverter[enPos[i]]['ja'][jaPos[i]]++;
   // Add English commons to the list.
   sentence = enCorpus[i];
-  sentence = sentence.trim().replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
+  sentence = sentence.replace(/(\.|\?|!|:)+$/, ''); // Remove the trailing punctuation.
   //sentence = sentence.replace(/(\.|;|,|:)+$/, ''); // Remove punctuation.
   var words = lexer.lex(sentence);
   words.forEach(function(word, index) {

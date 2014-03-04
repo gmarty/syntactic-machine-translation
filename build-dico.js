@@ -3,14 +3,7 @@
 'use strict';
 
 /**
- * Run:
- * ```bash
- * "C:\Program Files (x86)\ChaSen\chasen.exe" -F "%M|%m|%U(%P-)\n" C:\Users\FCHGMX\Dropbox\Dev\www\js-demo\machine-translation\corpus\ja.txt > C:\Users\FCHGMX\Dropbox\Dev\www\js-demo\machine-translation\dictionary\ja.txt
- * ```
- *
- * Convert `dictionary\ja.txt` to UTF-8.
- *
- * Run this script.
+ * Generate a dictionary of terms according to their POS class.
  */
 
 var fs = require('fs');
@@ -20,7 +13,7 @@ var table = require('./utils/chasen2jspos-map.json');
 var jsposTable = require('./utils/jspos2simplified-map.json');
 
 var enCorpus = '' + fs.readFileSync('./corpus/en.txt', {encoding: 'utf8'});
-var jaPos = '' + fs.readFileSync('./dictionary/ja.txt', {encoding: 'utf8'});
+var jaPos = '' + fs.readFileSync('./corpus-tagged/ja-raw.txt', {encoding: 'utf8'});
 
 // The POS common to both Chasen and js-pos.
 var posItems = require('./utils/common-pos-map.json');
@@ -28,16 +21,12 @@ var posItems = require('./utils/common-pos-map.json');
 // Convert the POS items from Chasen to js-pos.
 jaPos = jaPos.split('\r\nEOS\r\n');
 jaPos = jaPos.map(function(sentence) {
-  sentence = sentence.trim();
   sentence = sentence.split('\r\n');
   sentence = sentence.map(function(word) {
     word = word.split('|');
-    if (table[word[2]]) {
-      word[2] = table[word[2]];
-    } else {
-      word[2] = 'Unknown';
-    }
-    word = [word[1], word[2]];
+    var pos = word[2];
+    pos = table[pos] ? table[pos] : 'Unknown';
+    word = [word[1], pos];
     //word = word.join('|');
     return word;
   });
