@@ -6,22 +6,33 @@
  */
 
 var rules = [
+  // Unambiguous cases.
+  {regex: /\blet's\b/ig, output: 'let us'},
+  {regex: /'s (been|got|gotten)\b/ig, output: ' has $1'},
+  {regex: /'s (a|an|the|this|that|not|going)\b/ig, output: ' is $1'},
+  {regex: /'d (like|love)\b/ig, output: ' would $1'},
+
+  // Irregular negations.
+  {regex: /\bshouldn't've\b/ig, output: 'should not have'},
+  {regex: /\bwouldn't've\b/ig, output: 'would not have'},
+  {regex: /\bcouldn't've\b/ig, output: 'could not have'},
+  {regex: /\bshan't\b/ig, output: 'shall not'},
   {regex: /\bcan't\b/ig, output: 'cannot'},
   {regex: /\bwon't\b/ig, output: 'will not'},
-  {regex: /\bcouldn't've\b/ig, output: 'could not have'},
-  {regex: /\bwouldn't've\b/ig, output: 'would not have'},
-  {regex: /\bi'm\b/ig, output: 'I am'},
-  {regex: /\bhow'd\b/ig, output: 'how did'},
-  {regex: /\blet's\b/ig, output: 'let us'},
-  {regex: /\b(it|that|there|he|she)'s (been|got|gotten)\b/ig, output: '$1 has $2'},
-  {regex: /\b(it|that|there|he|she)'s (a|an|the|this)\b/ig, output: '$1 is $2'},
-  {regex: /\b(it|that|there|he|she)'s (.+)ing\b/ig, output: '$1 is $2ing'},
-  //{regex: /\b([a-z]*)'s/ig, output: '$1 is'},
-  {regex: /\b([a-z]*)n't/ig, output: '$1 not'},
-  {regex: /\b([a-z]*)'ll/ig, output: '$1 will'},
-  {regex: /\b([a-z]*)'re/ig, output: '$1 are'},
-  {regex: /\b([a-z]*)'ve/ig, output: '$1 have'},
-  {regex: /\b([a-z]*)'d/ig, output: '$1 would'}
+
+  // Regular contractions.
+  {regex: new RegExp('\\b(' +
+    'am|are|could|did|do|does|had|has|have|' +
+    'is|might|must|should|was|were|would' +
+    ')n\'t\\b', 'ig'), output: '$1 not'},
+  {regex: /'ll\b/ig, output: ' will'},
+  {regex: /'re\b/ig, output: ' are'},
+  {regex: /'ve\b/ig, output: ' have'},
+  {regex: /'m\b/ig, output: ' am'}
+
+  //{regex: /\bhow'd\b/ig, output: 'how did'}, // or had
+  //{regex: /'s\b/ig, output: ' is'}, // or has
+  //{regex: /'d\b/ig, output: ' would'}, // or had
 ];
 
 function normalize(str) {
